@@ -1,7 +1,10 @@
+/* https://pixabay.com/photos/fashion-girl-model-woman-cute-2766734/ */
 .section1-container {
-  /* https://pixabay.com/photos/fashion-girl-model-woman-cute-2766734/ */
   display: flex;
   background-image: url("../img/sect1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   height: 100vh;
   /* background; */
 }

@@ -6,7 +6,6 @@
   justify-content: space-between;
   align-items: center;
   padding: 15px 30px 15px 30px;
-  height: 73px;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2);
   background-color: white;
 
@@ -14,11 +13,11 @@
   top: 0;
   right: 0;
   left: 0;
-
 }
 
 .logo-div {
   margin-right: 30px;
+  width: 240px;
 } 
 
 .LOGO {
@@ -49,7 +48,7 @@
   
   border: 1.5px solid black;
   height: 35.5px;
-  max-width: 500px;
+  /* max-width: 500px; */
   flex: 1;
 }
 
@@ -94,7 +93,6 @@
   align-items: center;
   justify-content: end;
   width: 400px;
- 
 }
 
 .menu-links {
@@ -103,6 +101,7 @@
   cursor: pointer;
   transition: 0.15s;
   font-size: 18px;
+  text-align: center;
 }
 
 .menu-links:hover {
