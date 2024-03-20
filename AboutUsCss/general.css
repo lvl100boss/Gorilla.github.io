@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+* {
+  font-family: Archivo, Roboto, Arial, Helvetica, sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+a, a:visited,  a:active, a:hover,  a:focus,  a:link {
+  text-decoration: none;
+  color: black;
+}
+/* https://www.pexels.com/photo/hanged-clothes-on-a-clothes-rack-4641825/ */
+body {
+  padding-top: 200px;
+  background-image: url("../AboutUsImg/aboutusbg.jpg");
+  background-size: cover; 
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
