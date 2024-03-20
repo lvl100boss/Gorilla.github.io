@@ -4,7 +4,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Login</title>
+  <link rel="stylesheet" href="loginpagecss/general.css">
+  <link rel="stylesheet" href="loginpagecss/header.css">
   <link rel="stylesheet" href="loginpagecss/loginpage.css">
+
 </head>
 <body>
 
@@ -33,13 +36,20 @@
       <div class="form-up">
         
         <div class="credentails">
+
+          <form class="login-form" action="StoreHome.html">
+
+          <label for="mail" class="label-name">Email address</label>
+          <input type="email" id="mail" class="input-tags" placeholder="juancruz@gmail.com" required>
+          <label for="password" class="label-name">Password</label>
+          <input type="password" id="password" class="input-tags" placeholder="Password" required>
           
-          <label for="mail" class="email">Email address</label>
-          <input type="email" id="mail" class="email" placeholder="juancruz@gmail.com" required>
-          <label for="password">Password</label>
-          <input type="password" id="password" placeholder="Password" required>
-            <button class="Login">Login</button>
+          <div class="submit-button-container">
+            <input type="submit" value="Login" class="Login">
           </div>
+          
+        </form>
+        </div>
   
           <a href="#" class="forgot-pass">Forgot your password?</a>
         
@@ -53,7 +63,7 @@
             <hr class="separator">
           </div>
         
-          
+        
         </div>
     </div>
 
