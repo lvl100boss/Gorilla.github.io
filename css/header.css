@@ -8,6 +8,13 @@
   padding: 15px 30px 15px 30px;
   height: 73px;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2);
+  background-color: white;
+
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+
 }
 
 .logo-div {
@@ -41,16 +48,16 @@
   padding: 0 20px 0 20px;
   
   border: 1.5px solid black;
-  height: 35px;
+  height: 35.5px;
   max-width: 500px;
   flex: 1;
 }
+
 
 .fi-rr-search {
   background-color: black;
   color: white;
   border: 1px solid black;
-  border-left: 0px;
 
   font-weight: bold;
   font-size: 20px;
@@ -60,6 +67,8 @@
   padding-right: 8px;
 
   transition: background-color 0.15s;
+
+  margin-left: -1px;
 }
 
 .fi-rr-search:hover {
@@ -80,12 +89,36 @@
   opacity: 0.3;
 }
 
+.menu-div {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  width: 400px;
+ 
+}
+
+.menu-links {
+  font-size: 14px;
+  margin: 20px 20px 20px 20px;
+  cursor: pointer;
+  transition: 0.15s;
+  font-size: 18px;
+}
+
+.menu-links:hover {
+  color: #005B41;
+}
+
+.menu-links:active {
+  opacity: 0.5;
+}
+
 
 .icon-div {
   padding-top: 5px;
   display: flex;
   justify-content: space-evenly;
-  width: 200px;
+  width: 300px;
   align-items: center;
 }
 
