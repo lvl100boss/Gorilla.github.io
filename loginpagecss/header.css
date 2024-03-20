@@ -1,13 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap');
 
-.container {
+.logo-container {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
   padding: 15px 30px 15px 30px;
   height: 73px;
-  /* box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2); */
 }
 
 .logo-div {
@@ -26,4 +25,8 @@
 .rilla {
   font-family: Playfair Display;
   color: #005B41;
+}
+
+.header {
+  padding: 25px 30px 25px 30px;
 }

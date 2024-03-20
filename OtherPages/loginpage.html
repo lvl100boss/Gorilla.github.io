@@ -13,63 +13,108 @@
 </head>
 <body>
 
-  <header class="header">
-    <nav>
-      <div class="container">
+  <!-- HEADER PARTTTTTTT -->
+<header class="header">
+  <nav>
+    <div class="logo-containter">
 
-        <div class="logo-div">
-          
+      <div class="logo-div">
+        <a href="../index.html">
           <p class="LOGO">
             GO<span class="rilla">RILLA</span>
           </p>
-        
-        </div>
-      
+        </a>
       </div>
-    
-    </nav>
-  </header>
 
-  <main>
-  
-    <div class="container">
-      <p class="login_title">Already have an <span class="account">account</span>?</p>
-        
-      <div class="form-up">
-        
-        <div class="credentails">
-
-          <form class="login-form" action="../Index.html">
-
-          <label for="mail" class="label-name">Email address</label>
-          <input type="email" id="mail" class="input-tags" placeholder="juancruz@gmail.com" required>
-          <label for="password" class="label-name">Password</label>
-          <input type="password" id="password" class="input-tags" placeholder="Password" required>
-          
-          <div class="submit-button-container">
-            <input type="submit" value="Login" class="Login">
-          </div>
-          
-        </form>
-        </div>
-  
-          <a href="#" class="forgot-pass">Forgot your password?</a>
-        
-        </div>
-        
-        <div class="buttons-container">
-
-          <div class="separator-div">
-            <hr class="separator">
-            <p class="or">or</p>
-            <hr class="separator">
-          </div>
-        
-        
-        </div>
     </div>
+  </nav>
+</header>
 
-  </main>
+<!-- MAIN PART -->
+<main>
+  <div class="signup-container">
+    <form class="login-form" action="../index.html">
+
+      <p class="login-title">
+        Already have an <span class="account">account</span>?
+      </p>
+
+      <label for="mail" class="label-name">
+        Email address
+      </label>
+
+      <div class="fill-up-container">
+        <input type="email" id="mail" class="input-tags" placeholder="juancruz@gmail.com" required>
+      </div>
+
+      <label for="password" class="label-name">
+        Password
+      </label>
+
+      <div class="fill-up-container">
+        <input type="password" id="password" class="input-tags" placeholder="Password" required>
+      </div>
+
+      <div class="submit-button-container">
+        <input class="submit-button" type="submit" value="Login" >
+      </div>
+
+      <!-- first separator -->
+      <div class="separator-div">
+        <hr class="separator">
+        <p class="or">or</p>
+        <hr class="separator">
+      </div>
+
+      <!-- buttons -->
+      <div class="buttons-container">
+        <div class="social-media-buttons-container">
+          <button class="social-media-buttons">
+            <img class="social-media-logo" src="../signupimg/google-icon.png" alt="google_icon">
+            Sign up with
+            <span class="social-media-name">Google</span>
+          </button>
+        </div>
+        
+        <div class="social-media-buttons-container">
+          <button class="social-media-buttons">
+            <img class="social-media-logo2" src="../signupimg/facebook.webp" alt="google_icon">
+            Sign up with 
+            <span class="social-media-name">
+              Facebook
+            </span>
+          </button>
+        </div>
+        
+        <div class="social-media-buttons-container">
+          <button class="social-media-buttons">
+            <img class="social-media-logo3" src="../signupimg/mac-icon.png" alt="google_icon">
+            Sign up with  
+            <span class="social-media-name">
+              Apple
+            </span>
+          </button>
+        </div>
+      </div>
+
+      <!-- second separator -->
+      <div class="separator-div">
+        <hr class="separator">
+      </div>
+
+      <div class="disclaimer-div">
+        <p class="disclaimer">
+          This site is protected by reCAPTCHA and the Google
+          <span class="underline">Privacy Policy</span>
+          and <span class="underline">Terms of Service</span> apply.
+        </p>
+      </div>
+
+    </form>
+  </div>
+
+</main>
+  
 
 </body>
 </html>
