@@ -1,7 +1,7 @@
 .section1-container {
   /* https://pixabay.com/photos/fashion-girl-model-woman-cute-2766734/ */
   display: flex;
-  background-image: url(../img/sect1.jpg);
+  background-image: url("../img/sect1.jpg");
   height: 100vh;
   /* background; */
 }
