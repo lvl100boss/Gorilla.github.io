@@ -3,118 +3,128 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Login</title>
+  <title>Gorilla Sign Up Page</title>
+
+  <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.1.0/uicons-regular-rounded/css/uicons-regular-rounded.css'>
 
   <link rel="icon" href="../img/MONKEY.png">
+  
+  <link rel="stylesheet" href="../loginpagecss/loginpage.css">
   <link rel="stylesheet" href="../loginpagecss/general.css">
   <link rel="stylesheet" href="../loginpagecss/header.css">
-  <link rel="stylesheet" href="../loginpagecss/loginpage.css">
 
 </head>
 <body>
+<!-- HEADER HEADER  HEADER HEADER  HEADER HEADER  HEADER HEADER  HEADER HEADER  HEADER HEADER  HEADER HEADER -->
+  <header class="header">
+    <nav>
+      <div class="logo-container">
 
-  <!-- HEADER PARTTTTTTT -->
-<header class="header">
-  <nav>
-    <div class="logo-containter">
-
-      <div class="logo-div">
-        <a href="../index.html">
-          <p class="LOGO">
-            GO<span class="rilla">RILLA</span>
-          </p>
-        </a>
-      </div>
-
-    </div>
-  </nav>
-</header>
-
-<!-- MAIN PART -->
-<main>
-  <div class="signup-container">
-    <form class="login-form" action="../index.html">
-
-      <p class="login-title">
-        Already have an <span class="account">account</span>?
-      </p>
-
-      <label for="mail" class="label-name">
-        Email address
-      </label>
-
-      <div class="fill-up-container">
-        <input type="email" id="mail" class="input-tags" placeholder="juancruz@gmail.com" required>
-      </div>
-
-      <label for="password" class="label-name">
-        Password
-      </label>
-
-      <div class="fill-up-container">
-        <input type="password" id="password" class="input-tags" placeholder="Password" required>
-      </div>
-
-      <div class="submit-button-container">
-        <input class="submit-button" type="submit" value="Login" >
-      </div>
-
-      <!-- first separator -->
-      <div class="separator-div">
-        <hr class="separator">
-        <p class="or">or</p>
-        <hr class="separator">
-      </div>
-
-      <!-- buttons -->
-      <div class="buttons-container">
-        <div class="social-media-buttons-container">
-          <button class="social-media-buttons">
-            <img class="social-media-logo" src="../signupimg/google-icon.png" alt="google_icon">
-            Sign up with
-            <span class="social-media-name">Google</span>
-          </button>
+        <div class="logo-div">
+          <a href="../index.html">
+            <p class="LOGO">
+              GO<span class="rilla">RILLA</span>
+            </p>
+          </a>
         </div>
-        
-        <div class="social-media-buttons-container">
-          <button class="social-media-buttons">
-            <img class="social-media-logo2" src="../signupimg/facebook.webp" alt="google_icon">
-            Sign up with 
-            <span class="social-media-name">
-              Facebook
-            </span>
-          </button>
-        </div>
-        
-        <div class="social-media-buttons-container">
-          <button class="social-media-buttons">
-            <img class="social-media-logo3" src="../signupimg/mac-icon.png" alt="google_icon">
-            Sign up with  
-            <span class="social-media-name">
-              Apple
-            </span>
-          </button>
-        </div>
-      </div>
-
-      <!-- second separator -->
-      <div class="separator-div">
-        <hr class="separator">
-      </div>
-
-      <div class="disclaimer-div">
-        <p class="disclaimer">
-          This site is protected by reCAPTCHA and the Google
-          <span class="underline">Privacy Policy</span>
-          and <span class="underline">Terms of Service</span> apply.
-        </p>
-      </div>
-
-    </form>
-  </div>
-
-</main>
   
+      </div>
+    </nav>
+  </header>
+<!--  FORM FORM    FORM FORM    FORM FORM    FORM FORM    FORM FORM    FORM FORM    FORM FORM    FORM FORM    FORM FORM  -->
+      <div class="login-container">
+        
+          <div class="login-div">
+            <p class="login-title">
+              Login to
+            </p>
+            <p class="pagename">
+              GO<span class="rilla">RILLA</span>
+            </p>
+          </div>
+        
+        <form class="login-form" action="../index.html">
 
+          <label class="email_address_label" for="email">
+            Email
+          </label>
+          <div class="email-fill-up-container">
+            <input class="email-fill-up" type="email" placeholder="name@domain.com" required>
+          </div>
+
+          <label class="password_label" for="confirm_password">
+            Password
+          </label>
+          <div class="password-fill-up-container">
+            <input class="password-fill-up" type="password" placeholder="Password" required>
+          </div>
+        
+        
+          <div class="submit-button-container">
+            <!-- <button class="submit-button">Next</button> -->
+            <input class="submit-button" type="submit" value="Next">
+          </div>
+
+        </form>
+
+        <div class="separate-container">
+          <div class="separator-div">
+            <hr class="separator">
+            <p class="or">or</p>
+            <hr class="separator">
+          </div>
+              
+          <div class="buttons-container">
+            <div class="social-media-buttons-container">
+              <button class="social-media-buttons">
+                <img class="social-media-logo" src="../signupimg/google-icon.png" alt="google_icon">
+                <div class="button-contents">
+                  Sign up with
+                  <span class="social-media-name">
+                    Google
+                  </span>
+                </div>
+              </button>
+            </div>
+                
+            <div class="social-media-buttons-container">
+              <button class="social-media-buttons">
+                <img class="social-media-logo" src="../signupimg/facebook.webp" alt="google_icon">
+                <div class="button-contents">
+                  Sign up with 
+                  <span class="social-media-name">
+                    Facebook
+                  </span>
+                </div>
+              </button>
+            </div>
+                
+            <div class="social-media-buttons-container">
+                <button class="social-media-buttons">
+                  <img class="social-media-logo" src="../signupimg/mac-icon.png" alt="google_icon">
+                  <div class="button-contents">
+                    Sign up with  
+                    <span class="social-media-name">
+                    Apple
+                  </span>
+                </div>
+              </button>
+            </div>
+          </div>
+              
+          <div class="separator-div">
+            <hr class="separator">
+          </div>
+              
+          <div class="disclaimer-div">
+              <p class="disclaimer">
+              This site is protected by reCAPTCHA and the Google
+              <span class="underline">Privacy Policy</span>
+              and <span class="underline">Terms of Service</span> apply.
+            </p>
+          </div>     
+        </div>
+      </div>
+      
 </body>
 </html>

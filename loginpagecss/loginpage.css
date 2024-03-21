@@ -1,56 +1,85 @@
-.signup-container {
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap');
+
+
+.login-container {
   display: flex;
-  justify-content: center; 
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
-.login-form {
-  width: 414px;
+
+
+.login-form, .separate-container {
+  width: 329px;
 }
 
-.account {
+.sign-up{
+  
   color: #005B41;
+}
+
+.login-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 25px;
 }
 
 .login-title {
   font-weight: bolder;
   color: #0F0F0F;
-  font-size: 60px;
-  margin-bottom: 50px;
-  line-height: 60px;
+  font-size: 54px;
+
+  line-height: 52px;
+  letter-spacing: -3.5px;
+  margin-right: 10px;
 }
 
-.label-name {
+.pagename {
+  font-family: Playfair Display;
+  font-size: 60px;
+  font-weight: 700;
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+.email_address_label, .password_label {
   display: block;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 13px;
   margin-bottom: 10px;
   color: #005B41;
 }
 
-.fill-up-container {
+.email-fill-up-container,
+.password-fill-up-container {
   display: flex;
   flex-direction: row;
   margin-bottom: 20px;
 }
 
-.input-tags {
+.email-fill-up,
+.password-fill-up {
   flex: 1;
-  font-size: 20px;
-  padding: 10px 25px 10px 20px;
-  border: 3px solid rgba(0, 0, 0, 0.507);
-  border-radius: 7px;
+  /* font-size: 16px; */
+  padding: 12px 15px 12px 15px;
+  border: 2px solid rgba(0, 0, 0, 0.507);
+  border-radius: 5px;
 }
 
 .submit-button-container {
   display: flex;
   flex-direction: row;
-  margin-bottom: 45px;
+
+  margin-bottom: 35px;
 }
 
 .submit-button {
   flex: 1;
-  font-size: 20px;
-  padding: 22px 22px 22px 22px;
+  font-size: 17px;
+  padding: 13px 13px 13px 13px;
   border: none;
   border-radius: 100px;
   color: white;
@@ -66,13 +95,14 @@
   opacity: 0.5;
 }
 
+
 .separator-div {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
 
-  margin-bottom: 45px;
+  margin-bottom: 35px;
 }
 
 .separator{
@@ -84,7 +114,7 @@
 }
 
 .or {
-  font-size: 19px;
+  /* font-size: 19px; */
   margin: 0 10px 4px 10px;
   color: #005B41;
 }
@@ -93,18 +123,19 @@
   margin-bottom: 45px;
 }
 
+
 .social-media-buttons-container {
   display: flex;
   flex-direction: row;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
 }
 
 .social-media-buttons {
   display: flex;
   flex: 1;
-  font-size: 20px;
-  padding: 22px 22px 22px 22px;
-  border: 3px solid rgba(0, 0, 0, 0.507);
+  font-size: 16px;
+  padding: 13px 20px 13px 20px;
+  border: 2px solid rgba(0, 0, 0, 0.507);
   background-color: white;
   border-radius: 100px;
 
@@ -116,58 +147,26 @@
 }
 
 .social-media-buttons:hover {
-  border: 3px solid rgb(0, 0, 0);
+  border: 2px solid rgb(0, 0, 0);
 }
 
 .social-media-buttons:active{
   background-color: #005b411e;
 }
 
+.button-contents {
+  flex: 1;
+}
+
 .social-media-logo {
-  width: 25px;
-  margin-left: 10px;
-  margin-right: 65px;
-}
-
-.social-media-logo2 {
-  width: 25px;
-  margin-left: 10px;
-  margin-right: 50px;
-}
-
-.social-media-logo3 {
-  width: 25px;
-  margin-left: 10px;
-  margin-right: 68px;
+  width: 20px;
+  margin-left: 5px;
 }
 
 .social-media-name {
   color: #005B41;
   margin-left: 5px;
-  font-size: 22px;
-}
-
-.question-div {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  margin-bottom: 30px;
-}
-
-.question {
-  font-size: 20px;
-}
-
-.login-link {
-  font-weight: 600;
-  text-decoration: underline;
-  cursor: pointer;
-
-  transition: color 0.15s;
-}
-
-.login-link:hover {
-  color: #005B41;
+  font-size: 16px;
 }
 
 .disclaimer-div {
@@ -177,9 +176,9 @@
 }
 
 .disclaimer {
-  width: 330px;
+  width: 255px;
   text-align: center;
-  font-size: 14px;
+  font-size: 11px;
   color: gray;
 }
 
@@ -187,3 +186,5 @@
   text-decoration: underline;
   cursor: pointer;
 }
+
+

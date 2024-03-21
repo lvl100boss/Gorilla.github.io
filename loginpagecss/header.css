@@ -5,22 +5,16 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding: 15px 30px 15px 30px;
-  height: 73px;
+  height: 72px;
 }
-
-.logo-div {
-  margin-right: 30px;
-} 
 
 .LOGO {
   font-family: Playfair Display;
   color: #0F0F0F;
-  font-size: 2.5em;
+  font-size: 30px;
   font-weight: 700;
   font-style: italic;
   cursor: pointer;
- 
 }
 .rilla {
   font-family: Playfair Display;
@@ -28,5 +22,5 @@
 }
 
 .header {
-  padding: 25px 30px 25px 30px;
+  padding: 1px 22px 1px 22px;
 }

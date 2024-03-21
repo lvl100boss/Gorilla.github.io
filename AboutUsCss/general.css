@@ -11,11 +11,5 @@ a, a:visited,  a:active, a:hover,  a:focus,  a:link {
 }
 /* https://www.pexels.com/photo/hanged-clothes-on-a-clothes-rack-4641825/ */
 body {
-  padding-top: 200px;
-  background-image: url("../AboutUsImg/aboutusbg.jpg");
-  background-size: cover; 
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-position: center;
-
+  height: 3000px;
 }
