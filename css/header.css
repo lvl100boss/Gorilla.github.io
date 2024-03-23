@@ -59,8 +59,7 @@
   background-color: black;
   color: white;
   border: 1px solid black;
-  /* max-height: 24px; */
-  /* height: 26px; */
+  height: 26px;
   width: 26px;
   transition: background-color 0.15s;
 
