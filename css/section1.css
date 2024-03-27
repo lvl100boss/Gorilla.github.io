@@ -1,4 +1,5 @@
 /* https://pixabay.com/photos/fashion-girl-model-woman-cute-2766734/ */
+
 .section1-container {
   display: flex;
   background-image: url("../img/sect1.jpg");
@@ -8,4 +9,65 @@
   height: 100vh;
   /* background; */
 }
+
+.title-container {
+  max-width: 70vh;
+  margin-top: 12vh;
+  margin-left: 12vh;
+  /* background-color: rgba(0, 0, 0, 0.568); */
+  padding: 20px 30px;
+  border-radius: 10px;
+  height: 370px;
+  text-align: center;
+  
+}
+
+.section-title {
+  font-family: Playfair Display;
+  font-size: 60px;
+  font-weight: bold;
+  color: white;
+  line-height: 68px;
+  margin-bottom: 15px;
+  letter-spacing: -3px;
+  text-shadow: -3px 4px 1px #000000fd;
+  
+}
+
+.section-description {
+  /* max-width: 60vh; */
+  color: white;
+  font-size: 20px;
+  margin-bottom: 25px;
+  font-family: Archivo;
+  font-weight: 200;
+  text-shadow: -1px 2px 1px #000000fd;
+
+}
+
+.shop-now-button {
+  background-color: #0000003a;
+  border: 2px dotted white;
+
+  /* border-radius: 5px; */
+  color: white;
+  font-weight: 400;
+  padding: 20px 35%;
+  font-size: 20px;
+  cursor: pointer;
+  text-shadow: -1px 2px 1px #000000fd;
+
+
+  transition: background-color 0.15s, border 0.15s;
+}
+
+.shop-now-button:hover {
+  background-color: #003f2da9;
+  border: 2px solid white;
+}
+
+.shop-now-button:active {
+  background-color: #003f2de1;
+}
+
 
