@@ -25,7 +25,7 @@
   font-size: 3.5rem;
   font-weight: 900;
   color: #0F0F0F;
-  letter-spacing: 8px;
+  letter-spacing: 4px;
   margin-bottom: 5px;
   
 }
@@ -47,10 +47,15 @@ p.address, p.email {
   font-weight: 900;
   letter-spacing: 2px;
 }
+.map-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
+}
 .map {
   height: 410px;
-  width: 700px;
+  flex: 1;
   border: 20px solid white;
   box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.2);
   border-radius: 5px;
