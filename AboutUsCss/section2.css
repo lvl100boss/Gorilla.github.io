@@ -1,0 +1,16 @@
+.section2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 50px;
+  padding: 50px 50px;
+  line-height: 30px;
+}
+
+.section2 h1 {
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.section2 p {
+  font-size: 16px;
+  font-weight: 400;
+}
