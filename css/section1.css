@@ -14,12 +14,11 @@
   max-width: 70vh;
   margin-top: 12vh;
   margin-left: 12vh;
-  /* background-color: rgba(0, 0, 0, 0.568); */
+  /* background-color: rgba(255, 255, 255, 0.082); */
   padding: 20px 30px;
   border-radius: 10px;
   height: 370px;
   text-align: center;
-  
 }
 
 .section-title {
@@ -46,7 +45,7 @@
 }
 
 .shop-now-button {
-  background-color: #0000003a;
+  background-color: #00000059;
   border: 2px dotted white;
 
   /* border-radius: 5px; */
@@ -57,7 +56,7 @@
   cursor: pointer;
   text-shadow: -1px 2px 1px #000000fd;
 
-
+  backdrop-filter: blur(5px);
   transition: background-color 0.15s, border 0.15s;
 }
 

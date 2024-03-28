@@ -1,19 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 .header {
 
-  margin-bottom: 30px;
+  /* margin-bottom: 100px; */
   position: absolute;
   top: 18px;
   left: 22px;
+  z-index: 100;
 }
-.logo-container {
+.container {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
 
-  height: 50px;
+  /* height: x; */
   margin-bottom: 30px;
+  
+}
+
+a.home {
+  margin-top: 7px;
+  margin-left: 10px;
+  color: black;
+  font-size: 12px;
 
 }
 
