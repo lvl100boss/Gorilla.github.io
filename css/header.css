@@ -65,12 +65,11 @@
 }
 
 
-
 .shopping-cart-container {
   display: flex;
   color: #005B41;
   margin-right: 10px;
-  margin-left: 1px;
+  margin-left: 20px;
   align-items: center;
 }
 .total-price {

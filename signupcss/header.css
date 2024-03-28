@@ -2,11 +2,19 @@
 .logo-container {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   align-items: center;
   padding-left: 22px;
   height: 74px;
   margin-bottom: 20px;
+
+}
+
+a.home {
+  margin-top: 7px;
+  margin-left: 10px;
+  color: black;
+  font-size: 12px;
 
 }
 
