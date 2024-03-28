@@ -169,10 +169,33 @@
   font-size: 16px;
 }
 
+.question-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.question {
+  font-size: 16px;
+}
+
 .disclaimer-div {
   display: flex;
   flex-direction: row;
   justify-content: center;
+}
+
+.sign-up-link {
+  font-weight: 600;
+  text-decoration: underline;
+  cursor: pointer;
+
+  transition: color 0.15s;
+}
+
+.sign-up-link:hover {
+  color: #005B41;
 }
 
 .disclaimer {

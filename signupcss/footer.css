@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+.footer-container {
+  margin-top: 50px;
+  display: flex;
+  background-color: #1b1d24;
+  
+
+  padding: 20px 160px;
+  align-items: center;
+  justify-content: space-between;
+}
+.link-container-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.link-container{
+  margin: 20px 70px 20px 0;
+}
+.link-container a {
+  display: flex;
+  color: white;
+  margin: 15px 0;
+  letter-spacing: 2px;
+  font-weight: 500;
+  font-size: 13px;
+}
+
+.soc-med-links .fi{
+  color: white;
+  background-color: white;
+  padding: 10px 10px 5px 10px;
+  color: #1b1d24;
+  font-size: 20px;
+  margin-right: 10px;
+}

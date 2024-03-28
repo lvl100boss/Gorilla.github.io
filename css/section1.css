@@ -57,12 +57,13 @@
   text-shadow: -1px 2px 1px #000000fd;
 
   backdrop-filter: blur(5px);
-  transition: background-color 0.15s, border 0.15s;
+  transition: background-color 0.2s, border 0.2s ,border-radius 0.2s;
 }
 
 .shop-now-button:hover {
   background-color: #003f2da9;
   border: 2px solid white;
+  border-radius: 5px;
 }
 
 .shop-now-button:active {
