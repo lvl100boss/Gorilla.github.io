@@ -1,0 +1,122 @@
+* {
+  font-family: Archivo, Roboto, Arial;
+}
+
+.main-section2-container {
+  display: flex;
+  justify-content: center;
+}
+
+.section2-container {
+  display: flex;
+  flex-direction: column;
+
+  /* height: 500px;
+  width: 500px; */
+  flex: 1;
+  /* background-color: lightpink; */
+  padding: 100px 50px;
+}
+
+.featured-products-container {
+  /* background-color: lightblue; */
+  
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.featured-products {
+  font-size: 30px;
+  font-family: Archivo;
+  font-weight: bold;
+}
+
+.PRODUCTS {
+  color: #005B41;
+}
+
+.selection-type-container {
+  display: flex;
+}
+
+.tshirt-button {
+  background-color: transparent;
+  padding: 20px 25px;
+  border: none;
+
+  font-weight: 700;
+}
+
+.polos-button {
+  background-color: transparent;
+  padding: 20px 25px;
+  border: none;
+
+  font-weight: 700;
+}
+
+
+.main-products-container {
+  /* background-color: lightseagreen; */
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding: 20px 0 20px 0;
+  gap: 20px;
+}
+
+.product-container {
+  display: flex;
+  flex-direction: column;
+}
+.product-picture-container {
+  display: flex;
+  justify-content: center;
+}
+
+.product-picture {
+  height: 260px;
+  width: 260px;
+  object-fit: cover;
+  object-position: 80%;
+}
+
+.Tshirts-tag-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.Tshirts-tag {
+  font-size: 12px;
+  font-weight: 600;
+  color: grey;
+}
+
+.tshirt-name-container {
+  display: flex;
+  justify-content: center;
+  margin: 10px 0 10px 0;
+}
+
+.tshirt-name {
+  font-weight: bold;
+  color: black;
+}
+
+.tshirt-price-container {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+}
+
+
+.original-price {
+  color: rgba(128, 128, 128, 0.8);
+  text-decoration: line-through;
+}
+
+.sale-price {
+  color: grey;
+}
+
