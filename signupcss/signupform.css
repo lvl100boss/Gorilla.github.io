@@ -23,7 +23,7 @@
   letter-spacing: -3.5px;
 }
 
-.email_address_label, .password_label {
+.username_label, .password_label {
   display: block;
   font-weight: bold;
   font-size: 13px;
@@ -31,14 +31,14 @@
   color: #005B41;
 }
 
-.email-fill-up-container,
+.username-fill-up-container,
 .password-fill-up-container {
   display: flex;
   flex-direction: row;
   margin-bottom: 20px;
 }
 
-.email-fill-up,
+.username-fill-up,
 .password-fill-up {
   flex: 1;
   /* font-size: 16px; */
