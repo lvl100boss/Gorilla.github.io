@@ -105,6 +105,8 @@
 .product-container:hover .product-picture1,
 .product-container:hover .product-picture {
   transform: scale(1.2);
+  cursor: pointer;
+
 }
 
 .product-picture-container {
