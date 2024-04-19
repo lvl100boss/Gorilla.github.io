@@ -1,9 +1,35 @@
+<?php
+  include("database.php");
+
+  $username = filter_input(INPUT_POST, "username", FILTER_SANITIZE_SPECIAL_CHARS);
+  $pass = filter_input(INPUT_POST, "password", FILTER_SANITIZE_SPECIAL_CHARS);
+  $confirm_p = filter_input(INPUT_POST, "confirm_pass", FILTER_SANITIZE_SPECIAL_CHARS);
+
+  if(isset($_POST["submit_btn"])){
+    
+    if(empty($username)){
+        
+    }
+    elseif(($pass) != ($confirm_p)){
+        echo '<script>alert("Please re-enter your password!");</script>';
+      }
+      else{
+        $sql = "INSERT INTO customer_account (customer_username, customer_pass) VALUES ('$username', '$pass')";
+  
+        mysqli_query($conn, $sql);
+  
+        header("Location: loginpage.php");
+        die();
+      }
+  }
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Gorilla Sign Up Page</title>
+  <title>Gorilla Sign up Page</title>
 
   <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.1.0/uicons-regular-rounded/css/uicons-regular-rounded.css'>
   <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.2.0/uicons-brands/css/uicons-brands.css'>
@@ -35,7 +61,7 @@
   </header>
 <!--  FORM FORM    FORM FORM    FORM FORM    FORM FORM    FORM FORM    FORM FORM    FORM FORM    FORM FORM    FORM FORM  -->
       <section class="signup-container">
-        <form class="sign-up-form" action="loginpage.html">
+        <form class="sign-up-form" action="SignUpPage.php" method="post">
           <p class="sign-up-title">
             <span class="sign-up">
               Sign up 
@@ -47,22 +73,24 @@
           </label>
 
           <div class="username-fill-up-container">
-            <input class="username-fill-up" type="username" placeholder="Username" required>
+            <input class="username-fill-up" type="username" placeholder="Username" name="username">
+            <!-- <span name="error_no_name"></span> -->
           </div>
           <label class="password_label" for="password">
             Password
           </label>
           <div class="password-fill-up-container">
-            <input class="password-fill-up" type="password" placeholder="Password" required>
+            <input class="password-fill-up" type="password" placeholder="Password" name="password" required>
           </div>
           <div class="username-fill-up-container">
-            <input class="username-fill-up" type="password" placeholder="Confirm Password" required>
+            <input class="username-fill-up" type="password" placeholder="Confirm Password" name="confirm_pass" required>
           </div>
           
           
           <div class="submit-button-container">
             <!-- <button class="submit-button">Next</button> -->
-            <input class="submit-button" type="submit" value="Sign up">
+            <input class="submit-button" type="submit" value="Sign up" name="submit_btn">
+
           </div>
 
         </form>
@@ -119,8 +147,8 @@
           <div class="question-div">
             <p class="question">
               Already have an account?
-              <a href="loginpage.html">
-                <span class="login-link">Log in Here</span>.
+              <a href="loginpage.php">
+                <span class="login-link">Log in</span>.
               </a>
             </p>
           </div>
@@ -138,14 +166,14 @@
       <footer class="footer-container">
         <div class="link-container-parent">
           <div class="link-container">
-            <a href="../index.html">Home</a>
-            <a href="AboutUs.html">About Us</a>
-            <a href="#">My Account</a>
+            <a href="../index.php">Home</a>
+            <a href="AboutUs.php">About Us</a>
+            <a href="../OtherPages/loginpage.php">My Account</a>
           </div>
           <div class="link-container">
             <a href="#">Products</a>
-            <a href="ContactUs.html">Contact</a>
-            <a href="SignUpPage.html">Sign Up</a>
+            <a href="ContactUs.php">Contact</a>
+            <a href="SignUpPage.php">Sign Up</a>
           </div>
           
         </div>
@@ -170,3 +198,7 @@
 
 </body>
 </html>
+
+<?php 
+  mysqli_close($conn);
+?>
