@@ -6,6 +6,15 @@
   line-height: 30px;
 }
 
+@media screen and (max-width: 900px) {
+  .section2 {
+    grid-template-columns: 1fr 1fr;
+    padding: 50px 50px;
+    row-gap: 50px;
+  }
+  
+}
+
 .section2 h1 {
   font-weight: 700;
   margin-bottom: 20px;

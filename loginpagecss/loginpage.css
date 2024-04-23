@@ -45,6 +45,70 @@
   margin-bottom: 10px;
 }
 
+@keyframes titleResize {
+  from {
+    font-size: 54px;
+  }
+  to {
+    font-size: 42px;
+  }
+}
+
+@keyframes spanResize {
+  from {
+    font-size: 60px;
+  }
+  to {
+    font-size: 50px;
+  }
+}
+
+
+
+@media screen and (max-width: 550px) {
+  .login-title {
+    animation: titleResize 0.3s ease forwards;
+  }
+
+  .pagename {
+    animation: spanResize 0.3s ease forwards;
+  }
+}
+
+@keyframes titleEnlarge {
+  from {
+    font-size: 42px;
+  }
+  to {
+    font-size: 54px;
+  }
+}
+
+@keyframes spanEnlarge {
+  from {
+    font-size: 50px;
+  }
+  to {
+    font-size: 60px;
+  }
+}
+
+@media screen and (min-width: 551px) {
+  .login-title {
+    animation: titleEnlarge 0.3s ease forwards;
+  }
+
+  .pagename {
+    animation: spanEnlarge 0.3s ease forwards;
+  }
+}
+
+
+
+
+
+
+
 .email_address_label, .password_label {
   display: block;
   font-weight: bold;

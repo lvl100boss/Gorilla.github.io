@@ -72,6 +72,9 @@
   margin-left: 20px;
   align-items: center;
 }
+.shopping-cart-container:hover, .shopping-cart-container:active, .shopping-cart-container:focus, .shopping-cart-container:visited, .shopping-cart-container:link {
+  color: #005B41;
+}
 .total-price {
   font-style: italic;
   font-size: 20px;
