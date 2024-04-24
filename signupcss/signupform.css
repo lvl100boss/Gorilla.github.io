@@ -1,3 +1,23 @@
+.secret-container{
+  display: flex;
+  justify-content: space-between;
+}
+
+.secret-box {
+  display: flex;
+  /* flex: 1; */
+  width: 50px;
+  height: auto;
+  background-color: grey;
+
+  opacity: 0;
+}
+
+.secret-box a button {
+  display: flex;
+  flex: 1;
+  height: 100%;
+}
 
 .signup-container {
   display: flex;
@@ -143,7 +163,7 @@
 
 .social-media-name {
   color: #005B41;
-  margin-left: 5px;
+  /* margin-left: 5px; */
   font-size: 16px;
 }
 
