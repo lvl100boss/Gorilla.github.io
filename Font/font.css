@@ -1,0 +1,15 @@
+@font-face {
+  font-family: 'Playfair Display';
+  src: url('Playfair_Display/PlayfairDisplay-VariableFont_wght.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Playfair Display-italic';
+  src: url('Playfair_Display/PlayfairDisplay-Italic-VariableFont_wght.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Archivo';
+  src: url('Archivo/Archivo-VariableFont_wdth_wght.ttf'),
+  url('Archivo/Archivo-Italic-VariableFont_wdth_wght.ttf');
+}

@@ -1,0 +1,202 @@
+.section1 {
+  display: grid;
+  
+  grid-template-columns: 1fr ;
+}
+
+.cart-div {
+  display: grid;
+  grid-template-columns: 1fr 400px;
+  gap: 20px;
+
+  border-radius: 5px;
+  padding: 20px;
+  place-self: center;
+  background-color: white;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  width: 1000px;
+}
+
+@media screen and (max-width: 1000px) {
+  .cart-div {
+    grid-template-columns: 1fr;
+    width: auto;
+  }
+  
+  
+}
+
+.title {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.item-preview-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  padding: 10px;
+  gap: 10px;
+  margin-bottom: 10px;
+
+  color: rgb(92, 92, 92);
+}
+
+.middle {
+  flex: 1;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.item-photo {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 3px;
+}
+
+.num-of-items{
+  color: rgb(92, 92, 92);
+  font-size: 12px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.item-info {
+  /* margin-top: 10px; */
+}
+
+.item-name {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.item-size {
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.right {
+  display: grid;
+  grid-template-columns: 20px 60px 20px;
+  gap: 20px;
+  padding: 10px;
+}
+
+.item-num, .item-price {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.item-num, .fi-rr-trash {
+  text-align: center;
+}
+
+.item-price {
+  text-align: right;
+  margin-right: 10px;
+}
+
+.fi-rr-trash {
+  
+  transition: opacity 0.3s, color 0.3s;
+  cursor: pointer;
+}
+
+.fi-rr-trash:hover {
+  color: red;
+}
+
+
+
+.order-title {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.order-summary-container {
+  padding: 10px;
+}
+
+.order-details-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 500;
+  margin-bottom: 15px;
+  font-size: 14px;
+  color: rgb(92, 92, 92);
+}
+
+
+.order-details-div .shipping {
+  /* font-weight: 400; */
+  border-bottom: 1px solid black;
+  padding-left: 15px;
+  padding-bottom: 10px;
+}
+
+.order-details-div .price {
+  font-size: 15px;
+  color: black;
+  padding-bottom: 10px;
+
+}
+
+.last-order {
+  padding-bottom: 10px;
+  border-bottom: 1px solid black;
+  margin-bottom: 20px;
+}
+
+.order-total {
+  color: #005B41;
+  font-weight: 800;
+  font-size: 18px;
+}
+
+.gcash-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 20px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.gcash-container input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+  border: 1px solid black;
+  color: black;
+}
+
+button {
+  padding: 15px 20px;
+  background-color: rgba(0, 0, 0, 0.925);
+  border: 0;
+  width: 100%;
+  color: white;
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+
+  transition: background-color 0.15s;
+}
+
+button:hover {
+  background-color: #005B41;
+  
+}
+
+button:active {
+  background-color: black;
+  
+}

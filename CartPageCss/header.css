@@ -1,0 +1,44 @@
+
+.logo-container {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-between; */
+  align-items: center;
+  padding-left: 22px;
+  height: 74px;
+  /* margin-bottom: 20px; */
+
+}
+
+a.home {
+  margin-top: 7px;
+  margin-left: 10px;
+  color: black;
+  font-size: 12px;
+  transition: color 0.5s;
+  background-color: white;
+}
+
+a.home:hover {
+  color: #005B41;
+}
+
+.LOGO {
+  font-family: 'Playfair Display-italic';
+  color: #0F0F0F;
+  font-size: 30px;
+  font-weight: 700;
+  /* font-style: italic; */
+  cursor: pointer;
+ 
+}
+.rilla {
+  font-family: 'Playfair Display-italic';
+  color: #005B41;
+}
+
+
+
+
+
+

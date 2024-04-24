@@ -6,43 +6,64 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  height: 100vh;
+  height: 100dvh;
   /* background; */
+
+  align-items: center;
 }
 
 .title-container {
-  max-width: 70vh;
-  margin-top: 12vh;
+  max-width: 50vh;
+  
   margin-left: 12vh;
   /* background-color: rgba(255, 255, 255, 0.082); */
   padding: 20px 30px;
   border-radius: 10px;
   height: 370px;
   text-align: center;
+  text-wrap: balance;
+
 }
 
 .section-title {
   font-family: Playfair Display;
-  font-size: 60px;
+  font-size: 45px;
   font-weight: bold;
   color: white;
-  line-height: 68px;
-  margin-bottom: 15px;
+  line-height: 53px;
+  margin-bottom: 5vh;
   letter-spacing: -3px;
   text-shadow: -3px 4px 1px #000000fd;
   
 }
 
+
+
 .section-description {
   /* max-width: 60vh; */
   color: white;
-  font-size: 20px;
-  margin-bottom: 25px;
+  font-size: 18px;
+  margin-bottom: 7vh;
   font-family: Archivo;
   font-weight: 200;
   text-shadow: -1px 2px 1px #000000fd;
 
 }
+
+
+
+@media screen and (max-width: 540px) {
+
+  .section1-container {
+    justify-content: center;
+  }
+  .title-container {
+    margin: 0;
+    max-width: 50vh;
+    
+  }
+}
+
 
 .shop-now-button {
   background-color: #00000059;

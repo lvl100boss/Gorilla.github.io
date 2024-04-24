@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 .footer-container {
   margin-top: 50px;
   display: flex;
@@ -9,13 +8,41 @@
   align-items: center;
   justify-content: space-between;
 }
+
+
+@media (max-width: 900px) {
+  .footer-container {
+    /* padding: 20px auto; */
+    flex-direction: column;
+    gap: 20px;
+    row-gap: 50px;
+    padding: 20px 0;
+    justify-content: start;
+    
+  }
+  .link-container {
+    text-align: center;
+    margin: 0;
+  }
+  .soc-med-links {
+    width: auto;
+
+  }
+  .soc-med-links-container {
+    margin-bottom: 30px;
+  }
+}
+
+
+
 .link-container-parent {
   display: flex;
   flex-direction: row;
   align-items: center;
+  gap: 70px;
 }
 .link-container{
-  margin: 20px 70px 20px 0;
+  /* margin: 20px 70px 20px 0; */
 }
 .link-container a {
   display: flex;
@@ -24,7 +51,14 @@
   letter-spacing: 2px;
   font-weight: 500;
   font-size: 13px;
+  text-wrap: nowrap;
 }
+
+.soc-med-links-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+
+} 
 
 .soc-med-links .fi{
   color: white;

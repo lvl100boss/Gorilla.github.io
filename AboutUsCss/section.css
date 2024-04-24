@@ -35,7 +35,21 @@
   text-align: center;
   text-shadow: -3px 7px 1px rgba(255, 255, 255, 0.6);
   letter-spacing: 10px;
+}
 
+@media screen and (max-width: 900px) {
+  .about-us-content {
+    font-size: 30px;
+    line-height: 50px;
+    letter-spacing: 5px;
+  }
+  .about-us-container .about-us-button {
+    font-size: 13px;
+    padding: 15px 10%;
+  }
+  .year {
+    font-size: 10px;
+  }
 }
 
 .about-us-content span {
@@ -44,16 +58,24 @@
 
 }
 
+.explore-button {
+  color: white;
+  /* background-color: blue; */
+  /* margin: 20px 10%; */
+  pointer-events: none;
+}
+
 .about-us-button {
   background-color: #00000059;
   border: 2px dotted white;
-
+  
   /* border-radius: 5px; */
-  color: white;
+  
   font-weight: 400;
   padding: 20px 10%;
   font-size: 20px;
   cursor: pointer;
+  color: white;
   text-shadow: -1px 2px 1px #000000fd;
   margin-top: 4%;
 
@@ -69,4 +91,8 @@
 
 .about-us-button:active {
   background-color: #003f2de1;
+}
+
+.about-us-button:focus, .about-us-button:active, .about-us-button:visited, .about-us-button:link {
+  color: white;
 }
