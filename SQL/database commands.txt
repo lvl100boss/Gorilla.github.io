@@ -1,0 +1,5 @@
+CREATE DATABASE gorilla_db
+
+CREATE TABLE customers 
+	(customer_id INT PRIMARY KEY,
+	)

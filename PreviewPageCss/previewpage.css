@@ -6,8 +6,8 @@
 }
 .img-div {
   margin-left: 160px;
-  width: 570px;
-  height: 550px;
+  width: 45%;
+  aspect-ratio: 1;
   border: 0px solid black;
   overflow: hidden;
   border-radius: 3px;
@@ -74,7 +74,7 @@
 .size, .quantity {
   font-size: 18px;
   font-weight: 600;
-
+  
 }
 
 .size-container {
@@ -83,14 +83,18 @@
   column-gap: 10px;
   align-items: center;
   box-sizing: border-box;
+  flex: 1;
 }
 .size-select-container {
+  display: flex;
   position: relative;
+  flex: 1;
 }
 .size-select {
   padding: 10px;
   border: 1px solid Black;
-  width: 100px;
+  flex: 1;
+  
   font-size: 15px;
   font-weight: 500;
   cursor: pointer;
