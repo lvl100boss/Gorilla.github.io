@@ -23,7 +23,7 @@
   display: flex;
   justify-content: space-evenly;
   flex: 1;
-  background-color: rgb(212, 212, 212);
+  /* background-color: rgb(212, 212, 212); */
 }
 
 .progress-checkpoints {
