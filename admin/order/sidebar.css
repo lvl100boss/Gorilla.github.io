@@ -58,10 +58,6 @@
 	align-items: center;
 }
 
-.sidebar-name {
-	font-size: 14px;
-}
-
 .sidebar-buttons-container {
 
 	display: flex;
@@ -122,9 +118,8 @@
 }
 
 .dashboard,
-.project,
-.transactions,
-.analytics,
+.orders,
+.products,
 .report,
 .settings,
 .help,

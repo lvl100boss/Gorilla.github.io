@@ -1,15 +1,3 @@
-* {
-  font-family: Archivo,Roboto, Arial, Helvetica, sans-serif;
-  padding: 0;
-  margin: 0;
-}
-
-body {
-  padding: 130px 20px 20px 280px;
-
-  /* background-color: lightblue; */
-}
-
 .put-in-middle-container {
 
   display: flex;
@@ -422,4 +410,3 @@ body {
   flex: 1;
   justify-content: center;
 }
-

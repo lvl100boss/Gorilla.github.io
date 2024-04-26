@@ -58,6 +58,10 @@
 	align-items: center;
 }
 
+.side-profile-name{
+	font-size: 14px;
+}
+
 .sidebar-buttons-container {
 
 	display: flex;
@@ -108,7 +112,6 @@
 .project-icon,
 .transactions-icon,
 .analytics-icon,
-.report-icon,
 .settings-icon,
 .help-icon,
 .logout-icon {
@@ -120,7 +123,6 @@
 .dashboard,
 .orders,
 .products,
-.report,
 .settings,
 .help,
 .logout {
