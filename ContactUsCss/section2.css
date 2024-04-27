@@ -78,7 +78,8 @@ label.form-title {
   
 }
 
-.info-container {
+.info-container2 {
+  margin-top: 15px;
   display: grid;
   grid-template-columns: 1fr;
 }

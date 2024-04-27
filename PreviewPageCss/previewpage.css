@@ -6,8 +6,8 @@
 }
 .img-div {
   margin-left: 160px;
-  width: 45%;
-  aspect-ratio: 1;
+  width: 44%;
+  aspect-ratio: 1/1;
   border: 0px solid black;
   overflow: hidden;
   border-radius: 3px;
@@ -74,7 +74,7 @@
 .size, .quantity {
   font-size: 18px;
   font-weight: 600;
-  
+
 }
 
 .size-container {
@@ -86,19 +86,19 @@
   flex: 1;
 }
 .size-select-container {
-  display: flex;
   position: relative;
-  flex: 1;
+  width: 100%;
+ 
 }
 .size-select {
   padding: 10px;
   border: 1px solid Black;
-  flex: 1;
-  
+  width: 100px;
   font-size: 15px;
   font-weight: 500;
   cursor: pointer;
   appearance: none;
+  width: 100%;
 }
 
 .fi-rs-angle-small-down {

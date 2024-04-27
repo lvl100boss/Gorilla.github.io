@@ -1,0 +1,273 @@
+.section1 {
+  
+  margin: 0 10%;
+  
+  display: flex;
+  /* background-color: lightseagreen; */
+}
+/* parents */
+.sidebar-container {
+  /* background-color: lightblue; */
+  width: 30%;
+}
+
+.profile-pic-container {
+  background-color: white;
+  margin: 5% 0;
+  padding: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 70%;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+}
+
+.profile-pic-container img {
+  background-color: black;
+  padding: 1%;
+  width: 20dvh;
+  height: auto;
+  border-radius: 50%;
+  margin-bottom: 10%;
+}
+
+.profile-pic-container .name  {
+  font-weight: 500;
+  margin-bottom: 5%;
+}
+
+.profile-pic-container .location {
+  color: gray;
+  font-size: 15px;
+} 
+
+.sidebar-links-act div {
+  background-color: white;
+  width: 90.4%;
+  padding: 5% 10%;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  margin-bottom: 3%;
+  border: 2px solid #005B41;
+  box-sizing: border-box;
+
+  display: flex;
+  align-items: center;
+  gap: 10px;
+   color: #005B41;
+}
+
+.sidebar-links-una div {
+  background-color: white;
+  width: 90.4%;
+  padding: 5% 10%;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  margin-bottom: 3%;
+
+  box-sizing: border-box;
+
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  
+  
+}
+
+.sidebar-links-una div:hover {
+  background-color: white;
+  width: 90.3%;
+  padding: 5% 10%;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  margin-bottom: 2%;
+  
+  box-sizing: border-box;
+  border:  2px dashed #005B41;
+  
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+}
+
+.sidebar-links-una div:active {
+  background-color: white;
+  width: 90.3%;
+  padding: 5% 10%;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  margin-bottom: 2%;
+  
+  box-sizing: border-box;
+  border:  2px solid #005B41;
+  
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+}
+
+.sidebar-links-out div {
+  background-color: #005B41;
+  width: 90.4%;
+  padding: 5% 10%;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+  box-sizing: border-box;
+
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: white;
+}
+
+.sidebar-links-out div:hover {
+  background-color: #084433;
+  width: 90.4%;
+  padding: 5% 10%;
+  box-shadow: 0 2 10px 0 rgba(0, 0, 0, 0.2);
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: white;
+}
+
+.sidebar-links-out div:active {
+  background-color: #006649;
+  width: 90.4%;
+  padding: 5% 10%;
+  box-shadow: 0 2 10px 0 rgba(0, 0, 0, 0.2);
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: white;
+}
+
+
+/* parents */
+.info-container {
+  background-color: White;
+  flex: 1;
+  margin-top: 1.5%;
+  padding: 3% 3% 0 3%;
+  border-radius: 5px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+.order-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin-bottom: 5%;
+  margin-top: 2%;
+}
+
+.order-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 5%;
+}
+
+.order-box div {
+  font-weight: 500;
+  margin-bottom: 3%;
+}
+
+.order-box p {
+  color: gray;
+}
+
+.order-line {
+  display: flex;
+  align-items: center;
+  /* background-color: grey; */
+  height: 10%;
+}
+
+.green-line {
+  position: relative;
+  background-color: #005B41;
+  width: 100%;
+  height: 5px;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+
+  
+}
+.grey-line {
+  position: relative;
+  background-color: grey;
+  width: 100%;
+  height: 5px;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+
+
+.green-line .fi {
+  
+  position: absolute;
+  background-color: #005B41;
+  color: white;
+  padding: 9% 9% 7% 9%;
+  border-radius: 50%;
+  font-size: 23px;
+
+  top: -25px;
+}
+
+.grey-line .fi {
+  
+  position: absolute;
+  background-color: grey;
+  color: white;
+  padding: 9% 9% 7% 9%;
+  border-radius: 50%;
+  font-size: 23px;
+
+
+  top: -25px;
+}
+
+.product-info-table {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+}
+
+.order-line p {
+  margin-top: 22%;
+}
+
+.product-info-table {
+  margin-top: 10%;
+  display: grid;
+  grid-template-columns: 1fr;
+  border: 0.5px solid lightgrey;
+  padding: 2%;
+  margin-bottom: 15%;
+}
+
+.tb-row {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  row-gap: 40px;
+}
+
+.tb-row div {
+  font-size: 14px;
+}
+
+.tb-row p {
+  color: grey;
+  
+}
+
+

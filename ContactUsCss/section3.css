@@ -5,8 +5,9 @@
   column-gap: 20px;
   place-items: center;
   text-align: center;
-  padding-top: 20px;
-  padding-bottom: 70px;
+  /* padding-top: 20px;
+  padding-bottom: 70px; */
+  padding: 0 6.5% 5% 5.5%;
 }
 
 .section3 h1 {

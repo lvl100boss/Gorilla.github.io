@@ -19,7 +19,7 @@
 .filter-container {
   display: flex;
   align-items: center;
-  padding: 0 0 0 0;
+  padding: 0 4.8% 0 4.8%;
   height: 10%;
   
 }
@@ -69,7 +69,7 @@
   padding: 20px 0 20px 0;
   gap: 20px;
   row-gap: 50px;
-  
+  margin: 0  5%;
   align-items: center;
   justify-items: center;
 }
@@ -78,12 +78,15 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 270px;
+  width: 240px;
+  
   transition: box-shadow 0.7s, transform 0.7s;
   padding-bottom: 20px;
   
   cursor: pointer;
 }
+
+
 
 
 .product-container:hover {
@@ -98,8 +101,8 @@
 .product-picture-container {
   display: flex;
   justify-content: center;
-  height: 260px;
-  width: 270px;
+  width: 240px;
+  height: 300px;
   overflow: hidden;
   
   position: relative;

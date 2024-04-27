@@ -5,8 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Gorilla Sign Up Page</title>
 
-  <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.1.0/uicons-regular-rounded/css/uicons-regular-rounded.css'>
-  <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.2.0/uicons-brands/css/uicons-brands.css'>
+  <link href="../Icons/uicons-brands/css/uicons-brands.css" rel="stylesheet">
+  <link href="../Icons/uicons-regular-rounded/css/uicons-regular-rounded.css" rel="stylesheet">
+  <link href="../Icons/uicons-regular-straight/css/uicons-regular-straight.css" rel="stylesheet">
 
   <link rel="icon" href="../img/MONKEY.png">
   <link rel="stylesheet" href="../Font/font.css">
@@ -18,21 +19,43 @@
 </head>
 <body>
 <!-- HEADER HEADER  HEADER HEADER  HEADER HEADER  HEADER HEADER  HEADER HEADER  HEADER HEADER  HEADER HEADER -->
-  <header class="header">
-    <nav>
-      <div class="logo-container">
-
-        <div class="logo-div">
-          <a href="../index.html">
-            <p class="LOGO">
-              GO<span class="rilla">RILLA</span>
-            </p>
-          </a>
-        </div>
-        <a class="home" href="../index.html">HOME</a>
+<header class="header">
+  <nav>
+    <div class="container">
+      <div class="logo-div">
+        <a href="../index.html">
+          <p class="LOGO">
+            GO<span class="rilla">RILLA</span>
+          </p>
+        </a>
       </div>
-    </nav>
-  </header>
+      <div class="menu-div">
+          <a href="../index.html" class="menu-links" style="color: #005B41;">HOME</a>
+          <a href="Productpage.html" class="menu-links">PRODUCTS</a>
+          <a href="AboutUs.html" class="menu-links">ABOUT US</a>
+          <a href="ContactUs.html" class="menu-links">CONTACT</a>
+          <div class="dropdown">
+            <div class="menu-links dropbtn">
+              ACCOUNT
+              <i class="fi fi-rs-angle-down"></i>
+            </div>
+            <div class="dropdown-content">
+              <!-- <a href="ProfilePage.html">MY ACCOUNT</a> -->
+              <a href="loginpage.html">LOG IN</a>
+              <a href="CartPage.html">CART</a>
+            </div>
+          </div>
+          <a href="CartPage.html" class="shopping-cart-container">
+            <p class="total-price">₱0.00</p>
+            <div class="cart-parent-div">
+              <i class="fi fi-rs-shopping-cart"></i>
+              <div class="cart-quantity">2</div>
+            </div>
+          </a>
+      </div>     
+    </div>
+  </nav>
+</header>
 <!--  FORM FORM    FORM FORM    FORM FORM    FORM FORM    FORM FORM    FORM FORM    FORM FORM    FORM FORM    FORM FORM  -->
       <div class="secret-container">
         <div class="secret-box">
@@ -145,7 +168,7 @@
         </section>
 
         <div class="secret-box">
-          <a href="../moderator/Moderator.html">
+          <a href="../seller - moderator/Moderator.html">
             <button>
               To seller
             </button>

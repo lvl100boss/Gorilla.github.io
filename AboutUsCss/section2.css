@@ -2,7 +2,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   column-gap: 50px;
-  padding: 50px 50px;
+  padding: 50px 11.5%;
   line-height: 30px;
 }
 
