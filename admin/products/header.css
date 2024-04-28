@@ -6,7 +6,7 @@
 	position: fixed;
 
   top: 0;
-  left: 250px;
+  left: 280px;
 	right: 0;
 
   height: 100px;
@@ -16,7 +16,7 @@
 
   background-color: white;
 
-  padding: 0 30px 0 30px;
+  padding: 0 60px 0 60px;
 	box-shadow: 3px 0 5px rgba(0, 0, 0, 0.5);
 
 	z-index: 100;
@@ -92,20 +92,26 @@
 	border: none;
 }
 
-.search-icon {
+.search-icon-btn .fi {
+	font-size: 20px;
+	color: black;
+}
+
+/* .search-icon {
 	width: 20px;
 	height: 20px;
 	object-fit: cover;
-}
+} */
 
 .right-side-profile-container {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 
+	gap: 20px;
 	/* width: 220px; */
 
-	margin: 0 10px 0 10px;
+	/* margin: 0 10px 0 10px; */
 	/* background-color: lightskyblue; */
 }
 
@@ -116,6 +122,11 @@
 	margin-right: 20px;
 	position: relative;
 	cursor: pointer;
+}
+
+.just-icon-container .fi {
+	font-size: 20px;
+	color: black;
 }
 
 .notification-dot {
@@ -130,19 +141,14 @@
 	background-color: black;
 }
 
-.notification-icon {
-	height: 20px;
-	width: 20px;
-	object-fit: cover;	
-}
-
 .name-and-picture-container {
 	display: flex;
 	justify-content: flex-end;
 	align-items: center;
 
 	/* background-color: salmon; */
-	gap: 10px;
+	flex: 1;
+	gap: 20px;
 }
 
 .right-side-profile-picture {

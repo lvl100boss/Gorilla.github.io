@@ -19,11 +19,17 @@
   justify-content: center;
   align-items: center;
   position: relative;
-  padding: 10px;
+  /* padding: 10px; */
+  padding-bottom: 20px;
+
+  width: 230px;
   flex: 1;
   cursor: pointer;
-  transition: box-shadow 0.15s, transform 0.15s;
+
+  transition: box-shadow 0.15s, transform 0.5s;
+  /* background-color: lightblue; */
 }
+
 
 .product-container:hover {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
@@ -34,47 +40,63 @@
 }
 
 
-
 .trash-icon-container {
   position: absolute;
-  top: -10px;
-  right: -10px;
-
+  top: -14px;
+  right: -14px;
   border-radius: 15px;
   z-index: 10;
 }
 
 .trash-icon {
-  background-color: gray;
-  border-radius: 15px;
-  padding: 5px;
-  height: 20px;
-  width: 20px;
-  object-fit: cover;
-  filter: invert(99%) sepia(0%) saturate(0%) hue-rotate(158deg) brightness(113%) contrast(100%);
-  transition: background-color 0.15s, padding 0.15s;
+  font-size: 20px;
+  margin-top: 4px;
+
+  padding: 10px 12px;
+  border-radius: 50%;
+
+  background-color:black;
+  /* border: 3px solid black; */
+
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+
+  transition: padding 0.15s, background-color 0.15s, border 0.15s;
 }
 
 .trash-icon:hover {
-  background-color: white;
-  border-radius: 19px;
-  padding: 9px;
-  height: 20px;
-  width: 20px;
-  object-fit: cover;
+  padding: 12px 14px;
+  border-radius: 50%;
 }
 
 .trash-icon:active {
-  background-color: white;
-  border-radius: 17px;
-  padding: 7px;
-  height: 20px;
-  width: 20px;
-  object-fit: cover;
+  background-color: #005B41;
 }
+
+.trash-icon .fi {
+  color: white;
+}
+
+.trash-icon:active .fi {
+  color: white;
+}
+
 
 .product-picture-container {
   position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.shirt-picture {
+  width: 240px;
+  height: 300px;
+  object-fit: cover;
+  transition: box-shadow 0.15s, transform 0.5s;
+}
+
+.shirt-picture:hover {
+  transform: scale(1.1);
 }
 
 .sale-percent {
@@ -84,14 +106,9 @@
   background-color: rgba(0, 0, 0, 0.678);
   color: white;
 
+  flex: 1;
   font-size: 10px;
   padding: 5px;
-}
-
-.shirt-picture {
-  height: 200px;
-  width: 150px;
-  object-fit: cover;
 }
 
 .tshirts-tag-container {
@@ -136,4 +153,13 @@
 .sale-price {
   color: grey;
   font-size: 14px;
+}
+
+.edit-product-container {
+  margin: 10px 0 10px 0;
+}
+
+.edit-product {
+  text-decoration: none;
+  color: black;
 }
