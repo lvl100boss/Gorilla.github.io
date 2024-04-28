@@ -114,8 +114,8 @@
 .settings-icon,
 .help-icon,
 .logout-icon {
-	height: 20px;
-	width: 20px;
+	height: 18px;
+	width: 18px;
 	object-fit: cover;
 }
 
@@ -127,6 +127,6 @@
 .settings,
 .help,
 .logout {
-	font-size: 20px;
+	font-size: 18px;
 	font-weight: 500;
 }

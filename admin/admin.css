@@ -94,10 +94,9 @@
   gap: 10px;
 }
 
-.MONKEYLOGO {
-  height: 25px;
-  width: 25px;
-  object-fit: cover;
+.title-row .fi {
+  font-size: 25px;
+  color: black;
 }
 
 .title {
@@ -154,11 +153,24 @@
   gap: 5px;
 }
 
-.angle-small-down {
+.this-year-btn .fi {
+  font-size: 20px;
+  color: black;
+  margin-top: 5px;
+  transition: color 0.15s;
+}
+
+.this-year-btn:hover .fi {
+  font-size: 20px;
+  color: white;
+  margin-top: 5px;
+}
+
+/* .angle-small-down {
   height: 20px;
   width: 20px;
   object-fit: cover;
-}
+} */
 
 .MAIN-graph-column-container {
   display: flex;
@@ -304,9 +316,10 @@
   justify-content: space-between;
   align-items: center;
   /* padding: 10px; */
+  margin-bottom: 10px;
 }
 
-.Transactions {
+.transactions {
   font-size: 20px;
   font-weight: 600;
 }
@@ -360,7 +373,7 @@
   height: 0px;
   width: auto;
   border: 1px solid black;
-
+  margin: 10px 0 10px 0;
 }
 
 .customer-ROW-container {
@@ -410,4 +423,29 @@
   display: flex;
   flex: 1;
   justify-content: center;
+}
+
+.view-more-link {
+  text-decoration: none;
+  color: black;
+}
+
+.view-more {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 40px;
+  flex: 1;
+
+  border: 1px solid #005B41;
+  border-radius: 5px;
+  margin: 20px 0 0px 0;
+
+  transition: background-color 0.15s;
+}
+
+.view-more:hover {
+  background-color: #005B41;
+  color: white;
 }
