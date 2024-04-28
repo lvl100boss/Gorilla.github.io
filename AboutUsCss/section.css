@@ -11,6 +11,7 @@
 }
 
 .about-us-container {
+  margin-top: 15dvh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -20,21 +21,25 @@
   
 }
 .year {
+  font-size: 2.5dvh;
   text-align: center;
-  letter-spacing: 15px;
-  text-shadow: -1px 4px 1px rgb(255, 255, 255);
-  margin-bottom: 3%;
+  letter-spacing: 2dvh;
+  /* text-shadow: -1px 4px 1px rgb(255, 255, 255); */
+  text-shadow: -0.2dvh 0.6dvh 1px rgb(255, 255, 255);
+  margin-bottom: 7dvh;
 }
 
 .about-us-content {
-  line-height: 70px;
-  font-size: 50px;
+  line-height: 6dvh;
+  /* line-height: 70px; */
+  font-size: 7dvh;
+  
   font-weight: 800;
   color: rgb(29, 29, 29);
   max-width: 80%;
   text-align: center;
-  text-shadow: -3px 7px 1px rgba(255, 255, 255, 0.6);
-  letter-spacing: 10px;
+  text-shadow: -0.5dvh 0.9dvh 1px rgba(255, 255, 255, 0.6);
+  letter-spacing: 1.5dvh;
 }
 
 @media screen and (max-width: 900px) {
@@ -54,7 +59,7 @@
 
 .about-us-content span {
   color: #ffffff;
-  text-shadow: -3px 7px 1px rgba(0, 0, 0, 0.6);
+  text-shadow: -0.5dvh 0.9dvh 1px rgba(0, 0, 0, 0.6);
 
 }
 
@@ -66,26 +71,25 @@
 }
 
 .about-us-button {
+  margin: 7dvh;
   background-color: #00000059;
-  border: 2px dotted white;
-  
+  border: 0.35dvh dotted white;
+
   /* border-radius: 5px; */
-  
-  font-weight: 400;
-  padding: 20px 10%;
-  font-size: 20px;
-  cursor: pointer;
   color: white;
-  text-shadow: -1px 2px 1px #000000fd;
-  margin-top: 4%;
+  font-weight: 400;
+  padding: 3dvh 14.9dvh;
+  font-size: 2.5dvh;
+  cursor: pointer;
+  text-shadow: -0.1dvh 0.3dvh 1px #000000fd;
 
   backdrop-filter: blur(5px);
-  transition: background-color 0.2s, border 0.2s ,border-radius 0.2s;
+  transition: background-color 0.2s, border 0.2s , border-radius 0.2s;
 }
 
 .about-us-button:hover {
   background-color: #003f2da9;
-  border: 2px solid white;
+  border: 0.35dvh solid white;
   border-radius: 5px;
 }
 

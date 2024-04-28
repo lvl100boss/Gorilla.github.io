@@ -15,11 +15,11 @@
 .title-container {
   max-width: 50vh;
   
-  margin-left: 12vh;
+  margin-left: 18dvh;
   /* background-color: rgba(255, 255, 255, 0.082); */
-  padding: 20px 30px;
+  /* padding: 20px 30px; */
   border-radius: 10px;
-  height: 370px;
+  /* height: 100dvh; */
   text-align: center;
   text-wrap: balance;
 
@@ -27,13 +27,13 @@
 
 .section-title {
   font-family: Playfair Display;
-  font-size: 45px;
+  font-size: 6dvh;
   font-weight: bold;
   color: white;
-  line-height: 53px;
-  margin-bottom: 5vh;
-  letter-spacing: -3px;
-  text-shadow: -3px 4px 1px #000000fd;
+  line-height: 7dvh;
+  margin-bottom: 5dvh;
+  letter-spacing: -0.1dvh;
+  text-shadow: -0.5dvh 0.5dvh 1px #000000fd;
   
 }
 
@@ -42,11 +42,11 @@
 .section-description {
   /* max-width: 60vh; */
   color: white;
-  font-size: 18px;
+  font-size: 2.5dvh;
   margin-bottom: 7vh;
   font-family: Archivo;
   font-weight: 200;
-  text-shadow: -1px 2px 1px #000000fd;
+  text-shadow: -0.1dvh 0.3dvh 1px #000000fd;
 
 }
 
@@ -67,23 +67,23 @@
 
 .shop-now-button {
   background-color: #00000059;
-  border: 2px dotted white;
+  border: 0.35dvh dotted white;
 
   /* border-radius: 5px; */
   color: white;
   font-weight: 400;
-  padding: 20px 35%;
-  font-size: 20px;
+  padding: 3dvh 14.9dvh;
+  font-size: 2.5dvh;
   cursor: pointer;
-  text-shadow: -1px 2px 1px #000000fd;
+  text-shadow: -0.1dvh 0.3dvh 1px #000000fd;
 
   backdrop-filter: blur(5px);
-  transition: background-color 0.2s, border 0.2s ,border-radius 0.2s;
+  transition: background-color 0.2s, border 0.2s , border-radius 0.2s;
 }
 
 .shop-now-button:hover {
   background-color: #003f2da9;
-  border: 2px solid white;
+  border: 0.35dvh solid white;
   border-radius: 5px;
 }
 

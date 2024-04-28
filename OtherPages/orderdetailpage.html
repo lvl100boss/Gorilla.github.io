@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Gorilla Profile Page</title>
+  <title>Gorilla Order Page</title>
 
   <link href="../Icons/uicons-brands/css/uicons-brands.css" rel="stylesheet">
   <link href="../Icons/uicons-regular-rounded/css/uicons-regular-rounded.css" rel="stylesheet">
@@ -11,10 +11,10 @@
 
   <link rel="icon" href="../img/MONKEY.png">
   <link rel="stylesheet" href="../Font/font.css">
-  <link rel="stylesheet" href="../ProfilePageCss/header.css">
-  <link rel="stylesheet" href="../ProfilePageCss/general.css">
-  <link rel="stylesheet" href="../ProfilePageCss/footer.css">
-  <link rel="stylesheet" href="../ProfilePageCss/profilepage.css">
+  <link rel="stylesheet" href="../OrderPageCss/header.css">
+  <link rel="stylesheet" href="../OrderPageCss/general.css">
+  <link rel="stylesheet" href="../OrderPageCss/footer.css">
+  <link rel="stylesheet" href="../OrderPageCss/orderpage2.css">
 
 
 </head>
@@ -41,7 +41,7 @@
               <i class="fi fi-rs-angle-down"></i>
             </div>
             <div class="dropdown-content">
-              <a href="#">MY ACCOUNT</a>
+              <a href="ProfilePage.html">MY ACCOUNT</a>
               <a href="loginpage.html">LOG IN</a>
               <a href="CartPage.html">CART</a>
             </div>
@@ -69,19 +69,20 @@
               <p class="location">Zamboanga, Philippines</p>
             </div>
             <div class="sidebar-links-container">
-              <a href="#" class="sidebar-links-act">
+              <a href="ProfilePage.html" class="sidebar-links-una">
                 <div>
                   <i class="fi fi-rs-user"></i>
                   <p>Profile </p>
                 </div>
               </a>
 
-              <a href="OrderPage.html" class="sidebar-links-una">
+              <a href="#" class="sidebar-links-act">
                 <div>
                   <i class="fi fi-rr-shopping-basket"></i>
                   <p>My orders</p>
                 </div>
               </a>
+
               
               <br><br>
               <a href="loginpage.html" class="sidebar-links-out">
@@ -90,68 +91,83 @@
                   <p>Log out </p>
                 </div>
               </a>
-              
+
             </div>
           </div>
 
+          
           <div class="info-container">
-            <h1>WELCOME TO YOUR PROFILE!</h1>
-            <div class="box-container">
-              <div class="box">
-                <i class="fi fi-rr-shopping-cart"></i>
-                <h1>60</h1>
-                <p>Order Active</p>
+            <p class="title" style="margin-bottom: 3%;">ORDER DETAILS</p>
+            <br>
+            <div class="order-container">
+              <div class="order-box">
+                <div>Order Placed</div>
+                <p>April 20, 2024</p>
+                
               </div>
-              <div class="box">
-                <i class="fi fi-rr-time-fast"></i>
-                <h1>40</h1>
-                <p>Order Completed</p>
+              <div class="order-box">
+                <div>Total Amount</div>
+                <p>&#8369;3,930.92</p>
+                
               </div>
-              <div class="box">
-                <i class="fi fi-rr-ballot"></i>
-                <h1>100</h1>
-                <p>Total Orders</p>
+              <div class="order-box">
+                <div>Shipped from</div>
+                <p>GORILLA Store</p>
+                
+              </div>
+              <div class="order-box order-box2">
+                <div>Order ID</div>
+                <p>69420656</p>
+                
               </div>
             </div>
 
-            <div class="personal-info-container">
-              <div class="personal-information">
-                <h1>PERSONAL INFORMATION</h1>
-                <a href="ProfilePage2.html">
-                  <button>Edit</button>
-                </a>
+            <div class="order-line">
+              <div class="green-line">
+                <i class="fi fi-rr-pending"></i>
+                <p>Order Pending</p>
               </div>
-              <div class="row-container">
-                <div class="pi-row">
-                  <div>Name:</div>
-                  <p>Art Michael Cadiz</p>
-                </div>
-                <div class="pi-row">
-                  <div>Email:</div>
-                  <p>example@gmail.com</p>
-                </div>
-                <div class="pi-row">
-                  <div>Phone:</div>
-                  <p>0969-420-6560</p>
-                </div>
-                <div class="pi-row">
-                  <div>City:</div>
-                  <p>Zamboanga</p>
-                </div>
-                <div class="pi-row">
-                  <div>Country:</div>
-                  <p>Philippines</p>
-                </div>
-                <div class="pi-row">
-                  <div>Address:</div>
-                  <p>WMSU, Normal Rd, Baliwasan, Zamboanga, Philippines</p>
-                </div>
+              <div class="green-line">
+                <i class="fi fi-rr-priority-importance"></i>
+                <p>Order Processing</p>
+              </div>
+              <div class="green-line">
+                <i class="fi fi-rr-shipping-fast"></i>
+                <p>On The Way</p>
+              </div>
+              <div class="grey-line">
+                <i class="fi fi-rr-person-carry-box"></i>
+                <p>Ready for Delivery</p>
+              </div>
+            </div>
 
-                <div class="pi-row">
-                  <div>Address:</div>
-                  <p>WMSU, Normal Rd, Baliwasan, Zamboanga, Philippines</p>
-                </div>
+            <div class="product-info-table">
+              <div class="tb-row">
+                <div>PRODUCT</div>
+                <div>QUANTITY</div>
+                <div>SUBTOTAL</div>
+
+                <p>Plain Black Shirt</p>
+                <p>2</p>
+                <p>₱998</p>
+
+                <p>Oversized White Shirt</p>
+                <p>2</p>
+                <p>₱798</p>
+
+                <p>Plain Biege Shirt</p>
+                <p>1</p>
+                <p>₱399</p>
+
+                <p>Plain Black Shirt</p>
+                <p>3</p>
+                <p>₱1,497</p>
+
+                <div>TOTAL</div>
+                <div></div>
+                <div>₱3,692</div>
               </div>
+              
             </div>
           </div>
 

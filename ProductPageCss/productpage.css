@@ -215,6 +215,8 @@
 }
 
 
+
+
 @media (min-width: 501px) and (max-width: 750px) {
   .main-products-container {
     grid-template-columns: 1fr 1fr;
@@ -231,3 +233,160 @@
     grid-template-columns: 1fr 1fr 1fr 1fr;
   }
 }
+
+.pages {
+  margin: 6dvh 0 3dvh 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2dvh;
+}
+
+.page-nav {
+  background-color: white;
+  font-size: 2dvh;
+  cursor: pointer;
+  padding: 1dvh 2dvh;
+  font-weight: 600;
+  border: inset 0.1dvh rgba(0, 0, 0, 0.13);
+  border-radius: 2px;
+  border-style: solid;
+  transition: border 0.3s;
+}
+
+.page-nav:hover {
+  border: inset 0.1dvh rgba(0, 0, 0, 0.788);
+  border-style: dashed;
+}
+
+.page-nav:active {
+  border: inset 0.1dvh rgba(0, 0, 0, 0.788);
+  border-style: solid;
+}
+
+.act {
+  border: inset 0.1dvh rgba(0, 0, 0, 0.788);
+  border-style: solid;
+  border-radius: 0;
+}
+
+.act:hover {
+  border: inset 0.1dvh rgba(0, 0, 0, 0.788);
+  border-style: solid;
+  border-radius: 0;
+}
+
+.arrows {
+  display: flex;
+  gap: 1dvh;
+  align-items: center;
+}
+.arrows .fi {
+  margin-top: 0.5dvh;
+  font-size: 2dvh;
+  cursor: pointer;
+}
+
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 100;
+  top: 11dvh;
+  left: 0;
+  background-color: rgb(255, 255, 255);
+  /* background-color: violet; */
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 5dvh;
+}
+
+.sidebar p {
+  font-size: 2.5dvh;
+  font-weight: 600;
+  /* margin-left: 3dvh; */
+  margin-bottom: 2dvh;
+}
+
+
+.sidebar .closebtn {
+  position: absolute;
+  top: 4dvh;
+  right: 2dvh;
+  font-size: 4dvh;
+  /* margin-left: 50px; */
+}
+
+input[type="range"] {
+  /* Removes default styles */
+  -webkit-appearance: none;
+  appearance: none;
+  
+  /* Define track styles */
+  width: 100%;
+  height: 0.3dvh;
+  background: #ddd;
+  border-radius: 5px;
+  margin-bottom: 3dvh;
+  border-radius: 0;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  /* Define thumb styles */
+  -webkit-appearance: none;
+  appearance: none;
+  width: 2dvh;
+  height: 2dvh;
+  background: #005B41;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.sidebar-div {
+  margin-left: 3dvh;
+  margin-right: 3dvh;
+}
+
+.price-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 4dvh;
+  align-items: center;
+  padding-bottom: 4dvh;
+  border-bottom: 0.05dvh solid rgba(128, 128, 128, 0.507);
+}
+
+.price-container .min-price, .price-container .max-price
+, .price-container .category-name {
+  font-size: 2dvh;
+  font-weight: 400;
+}
+
+.sidebar-div .color-category{
+  font-size: 2dvh;
+  color: grey;
+  font-weight: 500;
+}
+#categoryRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2dvh;
+  /* background-color: rgb(214, 14, 14); */
+}
+.sidebar-div .category-name {
+  font-size: 2dvh;
+  font-weight: 400;
+  margin-left: 0.5dvh;
+  margin-bottom: 0;
+}
+
+
+
+
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+}
+

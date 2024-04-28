@@ -212,11 +212,28 @@
 
 .row-container {
   margin-top: 5%;
+  margin-bottom: 3.5%;
 }
+
+.put-text {
+  width: 100%;
+  padding: 2% 5%;
+  /* background-color: red; */
+  border: 1px solid lightgray;
+  border-radius: 1px;
+
+}
+
+.put-text:focus {
+  border: 1px solid #005B41;
+  outline: none;
+}
+
 .pi-row {
   display: grid;
-  grid-template-columns: 15% 1fr;
-  margin-bottom: 4%;
+  grid-template-columns: 15% 50%;
+  margin-bottom: 2%;
+  align-items: center;
 }
 
 .pi-row div {
@@ -232,7 +249,7 @@
   position: relative;
 }
 
-.personal-information button {
+.edit {
   position: absolute;
   background-color: #005B41;
   color: white;
@@ -245,10 +262,37 @@
   transition: box-shadow 0.2s, background-color 0.2s;
 }
 
-.personal-information button:hover {
+.edit:hover {
   box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, 0.3);
 }
 
-.personal-information button:active {
+.edit:active {
   background-color: #084433;
+}
+
+.save, .cancel {
+  margin-top: 3%;
+  background-color: #005B41;
+  color: white;
+  border: none;
+  padding: 1.5% 3%;
+  margin-right: 2%;
+  transition: box-shadow 0.2s, background-color 0.2s;
+}
+
+.cancel {
+  background-color: lightgray;
+  color: black;
+}
+
+.save:hover, .cancel:hover {
+  box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, 0.3);
+}
+
+.save:active {
+  background-color: #084433;
+}
+
+.cancel:active {
+  background-color: gray;
 }

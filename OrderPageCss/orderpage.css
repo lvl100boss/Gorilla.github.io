@@ -153,121 +153,195 @@
   background-color: White;
   flex: 1;
   margin-top: 1.5%;
-  padding: 3% 3% 0 3%;
+  /* padding: 3% 3% 0 3%; */
   border-radius: 5px;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
 }
 
-.order-container {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  margin-bottom: 5%;
-  margin-top: 2%;
-}
-
-.order-box {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 5%;
-}
-
-.order-box div {
-  font-weight: 500;
-  margin-bottom: 3%;
-}
-
-.order-box p {
-  color: gray;
-}
-
-.order-line {
-  display: flex;
-  align-items: center;
+.my-order-container {
+  padding: 2dvh 2dvh 0 2dvh;
+  /* height: 3dvh; */
   /* background-color: grey; */
-  height: 10%;
-}
-
-.green-line {
-  position: relative;
-  background-color: #005B41;
-  width: 100%;
-  height: 5px;
-  flex: 1;
   display: flex;
-  justify-content: center;
-
-  
+  align-items: center;
+  gap: 2dvh;
+  justify-content: space-between;
+  margin-bottom: 2dvh;
 }
-.grey-line {
-  position: relative;
-  background-color: grey;
-  width: 100%;
-  height: 5px;
-  flex: 1;
+
+.search-bar {
+  border: 0;
+  background-color: rgb(243, 243, 243);
+  /* background-color: rgb(182, 182, 182); */
+  border-radius: 5px;
+  
+  width: 25%;
+  padding: 1.5dvh 2dvh;
+  font-weight: 600;
+  font-size: 2dvh;
+}
+
+.search-bar:focus {
+  /* border: 0; */
+  outline: none;
+
+  padding: 1.35dvh 1.85dvh;
+  border: inset 0.2dvh #005B41;
+  border-style:  dashed;
+}
+
+.title {
+  font-size: 2.5dvh;
+  font-weight: 700;
+  margin-right: 5.5dvh;
+}
+
+.right-part {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  /* align-items: center; */
+  /* margin-top: 2dvh; */
+  gap: 2dvh;
 }
-
-
-
-.green-line .fi {
+.right-part button {
   
-  position: absolute;
-  background-color: #005B41;
-  color: white;
-  padding: 9% 9% 7% 9%;
-  border-radius: 50%;
-  font-size: 23px;
-
-  top: -25px;
-}
-
-.grey-line .fi {
-  
-  position: absolute;
-  background-color: grey;
-  color: white;
-  padding: 9% 9% 7% 9%;
-  border-radius: 50%;
-  font-size: 23px;
-
-
-  top: -25px;
-}
-
-.product-info-table {
-  display: grid;
-  grid-template-columns: 2fr 1fr 1fr;
-}
-
-.order-line p {
-  margin-top: 22%;
-}
-
-.product-info-table {
-  margin-top: 10%;
-  display: grid;
-  grid-template-columns: 1fr;
-  border: 0.5px solid lightgrey;
-  padding: 2%;
-  margin-bottom: 15%;
-}
-
-.tb-row {
-  display: grid;
-  grid-template-columns: 2fr 1fr 1fr;
-  row-gap: 40px;
-}
-
-.tb-row div {
-  font-size: 14px;
-}
-
-.tb-row p {
+  font-weight: 600;
+  padding: 1dvh 2dvh;
+  border: 0;
+  background-color: rgb(243, 243, 243);
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  gap: 1dvh;
   color: grey;
-  
+  font-size: 2dvh;
+}
+
+.right-part button:hover {
+  padding: 0.9dvh 1.9dvh;
+  border: inset 0.2dvh #005B41;
+  border-style:  dashed;
 }
 
 
+
+.right-part button .fi {
+  
+  margin-top: 0.7dvh;
+  font-size: 2dvh;
+}
+
+
+
+
+.table-top {
+  background-color: rgb(243, 243, 243);
+  box-shadow: 0 -0.1dvh 1px 0 rgba(0, 0, 0, 0.2);
+  border-bottom: 0.1dvh solid rgba(0, 0, 0, 0.1);
+  font-size: 2dvh;
+  display: grid;
+  grid-template-columns: 4dvh 1fr 2fr 1fr 1fr 0.5fr 2fr 1.5fr 1.5fr;
+  padding: 2dvh 2dvh;
+  border-radius: 5px 5px 0 0;
+  gap: 2dvh;
+  font-weight: 500;
+  color: grey;
+}
+
+.table-row {
+
+  font-size: 2dvh;
+  display: grid;
+  grid-template-columns: 4dvh 1fr 2fr 1fr 1fr 0.5fr 2fr 1.5fr 1.5fr;
+  padding: 2dvh 2dvh;
+  border-radius:0 0 6px 6px;
+  font-weight: 600;
+  gap: 2dvh;
+  border-bottom: 0.1dvh solid rgba(0, 0, 0, 0.15);
+  align-items: center;
+}
+
+.table-row:hover {
+  background-color: rgb(243, 243, 243);
+}
+
+.table-row .product {
+  font-size: 1.8dvh;
+}
+
+.table-row .link {
+  font-size: 1.6dvh;
+  font-weight: 400;
+  text-wrap: nowrap;
+  color: grey;
+  text-decoration: underline;
+}
+.num {
+  color: grey; 
+  font-weight: 400;
+}
+
+.green {
+  color: lightgreen;
+}
+
+.red {
+  color: rgb(253, 105, 105);
+}
+.orange {
+  color: rgb(243, 197, 112);
+}
+
+.buttom-nav-container {
+  padding: 3dvh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.entries {
+  font-size: 1.5dvh;
+  color: grey;
+}
+
+.nav-div {
+  font-size: 2dvh;
+  font-weight: 700;
+  display: flex;
+  gap: 2dvh;
+  align-items: center;
+}
+
+.arrows {
+  display: flex;
+  align-items: center;
+  gap: 0.5dvh;
+  font-weight: 500;
+  background-color: 0;
+  border: none;
+  cursor: pointer;
+} 
+.arrows .fi {
+  font-size: 1.5dvh;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 0.5dvh;
+  cursor: pointer;
+  
+  
+}
+
+.buttom-nav-container .navnav {
+  color: grey;
+  font-size: 2dvh;
+}
+
+.buttom-nav-container .navnav p {
+  font-size: 2dvh;
+}
+.buttom-nav-container .acti {
+  color: rgb(75, 75, 75);
+  font-weight: 700;
+  text-decoration: underline;
+}

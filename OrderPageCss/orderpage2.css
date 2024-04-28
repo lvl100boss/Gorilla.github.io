@@ -158,97 +158,116 @@
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
 }
 
-.info-container h1 {
-  font-weight: 500;
-  font-size: 15px;
-}
-
-.box-container {
+.order-container {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 2%;
-  margin: 2% 0 5% 0;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin-bottom: 5%;
+  margin-top: 2%;
 }
 
-.box {
-  box-shadow: inset 0 0 10px 0 rgba(0, 0, 0, 0.1);
-  border-radius: 5px;
+.order-box {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 5%;
+  margin-bottom: 5%;
 }
 
-.box .fi {
-  background-color: #005B41;
-  color: white;
-  padding: 9% 10%;
-  border-radius: 50%;
-  font-size: 20px;
-  margin-top: 10% ;
+.order-box div {
+  font-weight: 500;
+  margin-bottom: 3%;
 }
 
-.box h1 {
-  font-weight: 700;
-  font-size: 40px;
-  margin: 5%;
-}
-
-.box p {
-  font-size: 15px;
+.order-box p {
   color: gray;
-  margin-bottom: 10%;
 }
 
-.personal-info-container {
-  margin-top: 10%;
-}
-.personal-info-container h1 {
-  font-weight: 600;
-  font-size: 20px;
-
+.order-line {
+  display: flex;
+  align-items: center;
+  /* background-color: grey; */
+  height: 10%;
 }
 
-.row-container {
-  margin-top: 5%;
-}
-.pi-row {
-  display: grid;
-  grid-template-columns: 15% 1fr;
-  margin-bottom: 4%;
-}
-
-.pi-row div {
-  font-weight: 300;
-}
-
-.pi-row p {
-  font-weight: 300;
-  color: grey;
-}
-
-.personal-information {
+.green-line {
   position: relative;
+  background-color: #005B41;
+  width: 100%;
+  height: 5px;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+
+  
+}
+.grey-line {
+  position: relative;
+  background-color: grey;
+  width: 100%;
+  height: 5px;
+  flex: 1;
+  display: flex;
+  justify-content: center;
 }
 
-.personal-information button {
+
+
+.green-line .fi {
+  
   position: absolute;
   background-color: #005B41;
   color: white;
-  border: none;
-  padding: 1.5% 3%;
-  top: 0;
-  right: 0;
+  padding: 9% 9% 7% 9%;
+  border-radius: 50%;
+  font-size: 23px;
+
+  top: -25px;
+}
+
+.grey-line .fi {
   
+  position: absolute;
+  background-color: grey;
+  color: white;
+  padding: 9% 9% 7% 9%;
+  border-radius: 50%;
+  font-size: 23px;
 
-  transition: box-shadow 0.2s, background-color 0.2s;
+
+  top: -25px;
 }
 
-.personal-information button:hover {
-  box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, 0.3);
+.product-info-table {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
 }
 
-.personal-information button:active {
-  background-color: #084433;
+.order-line p {
+  margin-top: 22%;
 }
+
+.product-info-table {
+  margin-top: 10%;
+  display: grid;
+  grid-template-columns: 1fr;
+  border: 0.5px solid lightgrey;
+  padding: 2%;
+  margin-bottom: 15%;
+}
+
+.tb-row {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  row-gap: 40px;
+}
+
+.tb-row div {
+  font-size: 14px;
+}
+
+.tb-row p {
+  color: grey;
+  
+}
+
+
