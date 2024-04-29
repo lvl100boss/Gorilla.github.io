@@ -176,22 +176,22 @@
   border-radius: 5px;
   
   width: 25%;
-  padding: 1.5dvh 2dvh;
+  padding: 1dvh 1.5dvh;
   font-weight: 600;
-  font-size: 2dvh;
+  font-size: 1.5dvh;
 }
 
 .search-bar:focus {
   /* border: 0; */
   outline: none;
 
-  padding: 1.35dvh 1.85dvh;
+  padding: 1.1dvh 1.4dvh;
   border: inset 0.2dvh #005B41;
   border-style:  dashed;
 }
 
 .title {
-  font-size: 2.5dvh;
+  font-size: 2dvh;
   font-weight: 700;
   margin-right: 5.5dvh;
 }
@@ -206,7 +206,7 @@
 .right-part button {
   
   font-weight: 600;
-  padding: 1dvh 2dvh;
+  padding: 0.7dvh 2dvh;
   border: 0;
   background-color: rgb(243, 243, 243);
   border-radius: 5px;
@@ -214,11 +214,11 @@
   align-items: center;
   gap: 1dvh;
   color: grey;
-  font-size: 2dvh;
+  font-size: 1.5dvh;
 }
 
 .right-part button:hover {
-  padding: 0.9dvh 1.9dvh;
+  padding: 0.5dvh 1.9dvh;
   border: inset 0.2dvh #005B41;
   border-style:  dashed;
 }
@@ -228,7 +228,7 @@
 .right-part button .fi {
   
   margin-top: 0.7dvh;
-  font-size: 2dvh;
+  font-size: 1.5dvh;
 }
 
 
@@ -238,7 +238,7 @@
   background-color: rgb(243, 243, 243);
   box-shadow: 0 -0.1dvh 1px 0 rgba(0, 0, 0, 0.2);
   border-bottom: 0.1dvh solid rgba(0, 0, 0, 0.1);
-  font-size: 2dvh;
+  font-size: 1.5dvh;
   display: grid;
   grid-template-columns: 4dvh 1fr 2fr 1fr 1fr 0.5fr 2fr 1.5fr 1.5fr;
   padding: 2dvh 2dvh;
@@ -250,7 +250,7 @@
 
 .table-row {
 
-  font-size: 2dvh;
+  font-size: 1.4dvh;
   display: grid;
   grid-template-columns: 4dvh 1fr 2fr 1fr 1fr 0.5fr 2fr 1.5fr 1.5fr;
   padding: 2dvh 2dvh;
@@ -266,11 +266,11 @@
 }
 
 .table-row .product {
-  font-size: 1.8dvh;
+  font-size: 1.4dvh;
 }
 
 .table-row .link {
-  font-size: 1.6dvh;
+  font-size: 1.4dvh;
   font-weight: 400;
   text-wrap: nowrap;
   color: grey;
@@ -300,12 +300,12 @@
 }
 
 .entries {
-  font-size: 1.5dvh;
+  font-size: 1.3dvh;
   color: grey;
 }
 
 .nav-div {
-  font-size: 2dvh;
+  font-size: 1.5dvh;
   font-weight: 700;
   display: flex;
   gap: 2dvh;
@@ -322,7 +322,7 @@
   cursor: pointer;
 } 
 .arrows .fi {
-  font-size: 1.5dvh;
+  font-size: 1.2dvh;
   cursor: pointer;
   display: flex;
   align-items: center;
@@ -334,11 +334,11 @@
 
 .buttom-nav-container .navnav {
   color: grey;
-  font-size: 2dvh;
+  font-size: 1.5dvh;
 }
 
 .buttom-nav-container .navnav p {
-  font-size: 2dvh;
+  font-size: 1.5dvh;
 }
 .buttom-nav-container .acti {
   color: rgb(75, 75, 75);
