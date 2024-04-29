@@ -1,0 +1,175 @@
+.MAIN-HEADER-CONTAINER {
+	
+  display: flex;
+	justify-content: space-between;
+  align-items: center;
+	position: fixed;
+
+  top: 0;
+  left: 280px;
+	right: 0;
+
+  height: 100px;
+  /* width: auto; */
+
+	flex: 1;
+
+  background-color: white;
+
+  padding: 0 60px 0 60px;
+	box-shadow: 3px 0 5px rgba(0, 0, 0, 0.5);
+
+	z-index: 100;
+}
+
+.dashboard-title-container {
+  display: flex;
+  flex-direction: column;
+
+	width: 150px;
+	/* background-color: lightcoral; */
+}
+
+.dashboard-title {
+  font-size: 26px;
+	font-weight: 600;
+
+}
+
+.search-bar-container{
+	display: flex;
+	flex: 1;
+
+	justify-content: space-between;
+	align-items: center;
+
+	/* background-color: saddlebrown; */
+	margin: 0 100px 0 100px;
+	/* min-width: 200px; */
+
+}
+
+.form {
+	flex: 1;
+}
+
+.form-search-container {
+
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+	min-width: 220px;
+
+	/* border: 1px solid black; */
+
+	border-radius: 20px;
+	background-color: white;
+}
+
+.form-search {
+	width: 90%;
+	height: 40px;
+	padding: 0px 20px;
+
+	border-top-left-radius: 20px;
+	border-bottom-left-radius: 20px;
+	border: none;
+}
+
+.search-icon-btn {
+	width: 10%;
+	height: 40px;
+	margin: 0;
+	padding: 0;
+	margin-right: 20px;
+	margin-left: 20px;
+
+	border-top-right-radius: 20px;
+	border-bottom-right-radius: 20px;
+
+	background-color: white;
+	border: none;
+}
+
+.search-icon-btn .fi {
+	font-size: 20px;
+	color: black;
+}
+
+/* .search-icon {
+	width: 20px;
+	height: 20px;
+	object-fit: cover;
+} */
+
+.right-side-profile-container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+	gap: 20px;
+	/* width: 220px; */
+
+	/* margin: 0 10px 0 10px; */
+	/* background-color: lightskyblue; */
+}
+
+.just-icon-container {
+	display: flex;
+	align-items: center;
+
+	margin-right: 20px;
+	position: relative;
+	cursor: pointer;
+}
+
+.just-icon-container .fi {
+	font-size: 20px;
+	color: black;
+}
+
+.notification-dot {
+	width: 10px;
+	height: 10px;
+	border-radius: 5px;
+
+	position: absolute;
+	top: -3px;
+	right: -3px;
+
+	background-color: black;
+}
+
+.name-and-picture-container {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+
+	/* background-color: salmon; */
+	flex: 1;
+	gap: 20px;
+}
+
+.right-side-profile-picture {
+	height: 50px;
+	width: 50px;
+	border-radius: 25px;
+	object-fit: cover;	
+}
+
+.right-side-name-btn{
+	background-color: white;
+	border: none;
+
+	cursor: pointer;
+}
+
+.right-side-name {
+	font-size: 16px;
+}
+
+
+
+
+
