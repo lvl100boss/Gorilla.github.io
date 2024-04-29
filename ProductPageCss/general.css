@@ -5,12 +5,14 @@
 }
 
 body {
-  padding-top: 5.5%;
+  padding: 9.5dvh 0 0 0;
 }
 
 main {
+  padding: 5dvh 0;
   background-color: rgb(243, 243, 243);
-  padding-bottom: 50px;
+  
+ 
 }
 
 a, a:visited,  a:active, a:hover,  a:focus,  a:link {

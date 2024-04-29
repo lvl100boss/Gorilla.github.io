@@ -1,8 +1,11 @@
+
+
 .footer-container {
+  flex: 1;
   /* margin-top: 50px; */
   display: flex;
   background-color: #1b1d24;
-  
+  height: 100%;
 
   padding: 20px 10%;
   align-items: center;
