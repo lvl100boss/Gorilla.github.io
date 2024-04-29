@@ -1,29 +1,50 @@
+
+
 .secret-container{
   display: flex;
   justify-content: space-between;
+  
 }
 
-.secret-box {
+div.secret-box {
   display: flex;
   /* flex: 1; */
   width: 50px;
-  height: auto;
-  background-color: grey;
-
-  opacity: 0;
+  
+  /* background-color: grey; */
+  /* border: 1px solid black; */
+  
+  opacity: 0.5;
+  /* opacity: 0; */
 }
 
 .secret-box a button {
   display: flex;
   flex: 1;
   height: 100%;
+  border: none;
+  border-right: 1px solid rgba(0, 0, 0, 0.178);
+  border-left: 1px solid rgba(0, 0, 0, 0.178);
+  background-color: white;
+  writing-mode: vertical-rl;
+  text-orientation: upright; 
+  white-space: nowrap; 
+  padding: 16px 16px;
+
+  overflow: hidden;
 }
 
 .login-container {
+  /* background-color: white; */
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
+  margin-top: 13vh;
+  /* box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2); */
+ 
+  border-radius: 10px;
+  margin-bottom: 50px;
 }
 
 

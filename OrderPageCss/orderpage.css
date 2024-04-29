@@ -238,7 +238,7 @@
   background-color: rgb(243, 243, 243);
   box-shadow: 0 -0.1dvh 1px 0 rgba(0, 0, 0, 0.2);
   border-bottom: 0.1dvh solid rgba(0, 0, 0, 0.1);
-  font-size: 1.5dvh;
+  font-size: 1.7dvh;
   display: grid;
   grid-template-columns: 4dvh 1fr 2fr 1fr 1fr 0.5fr 2fr 1.5fr 1.5fr;
   padding: 2dvh 2dvh;
@@ -250,7 +250,7 @@
 
 .table-row {
 
-  font-size: 1.4dvh;
+  font-size: 1.5dvh;
   display: grid;
   grid-template-columns: 4dvh 1fr 2fr 1fr 1fr 0.5fr 2fr 1.5fr 1.5fr;
   padding: 2dvh 2dvh;
@@ -266,11 +266,11 @@
 }
 
 .table-row .product {
-  font-size: 1.4dvh;
+  font-size: 1.5dvh;
 }
 
 .table-row .link {
-  font-size: 1.4dvh;
+  font-size: 1.5dvh;
   font-weight: 400;
   text-wrap: nowrap;
   color: grey;
@@ -300,12 +300,12 @@
 }
 
 .entries {
-  font-size: 1.3dvh;
+  font-size: 1.4dvh;
   color: grey;
 }
 
 .nav-div {
-  font-size: 1.5dvh;
+  font-size: 1.6dvh;
   font-weight: 700;
   display: flex;
   gap: 2dvh;
@@ -322,7 +322,7 @@
   cursor: pointer;
 } 
 .arrows .fi {
-  font-size: 1.2dvh;
+  font-size: 1.3dvh;
   cursor: pointer;
   display: flex;
   align-items: center;
@@ -334,11 +334,11 @@
 
 .buttom-nav-container .navnav {
   color: grey;
-  font-size: 1.5dvh;
+  font-size: 1.6dvh;
 }
 
 .buttom-nav-container .navnav p {
-  font-size: 1.5dvh;
+  font-size: 1.6dvh;
 }
 .buttom-nav-container .acti {
   color: rgb(75, 75, 75);

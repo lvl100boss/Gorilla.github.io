@@ -5,11 +5,12 @@
 }
 
 body {
-  padding-top: 9%;
+  /* padding-top: 9%; */
+  padding-top: 9.5dvh;
 }
 
 main {
-  margin-top: 30px;
+  
 }
 
 a, a:visited,  a:active, a:hover,  a:focus,  a:link {
