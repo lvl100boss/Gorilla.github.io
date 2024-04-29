@@ -153,7 +153,8 @@
   background-color: White;
   flex: 1;
   margin-top: 1.5%;
-  padding: 3% 3% 0 3%;
+  height: auto;
+  padding: 3% 3% 7% 3%;
   border-radius: 5px;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
 }
@@ -161,8 +162,8 @@
 .order-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  margin-bottom: 5%;
-  margin-top: 2%;
+  
+  /* margin-top: 2%; */
 }
 
 .order-box {
@@ -252,13 +253,13 @@
   grid-template-columns: 1fr;
   border: 0.5px solid lightgrey;
   padding: 2%;
-  margin-bottom: 15%;
+  /* margin-bottom: 15%; */
 }
 
 .tb-row {
   display: grid;
   grid-template-columns: 2fr 1fr 1fr;
-  row-gap: 40px;
+  row-gap: 35px;
 }
 
 .tb-row div {
