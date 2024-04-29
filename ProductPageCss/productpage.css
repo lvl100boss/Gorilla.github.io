@@ -64,12 +64,13 @@
 
 .main-products-container {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   width: auto;
+  max-width: 60dvh;
   padding: 20px 0 20px 0;
   gap: 20px;
   row-gap: 50px;
-  margin: 0  5%;
+  margin: 0  20dvh;
   align-items: center;
   justify-items: center;
 }
