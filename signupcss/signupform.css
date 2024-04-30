@@ -1,21 +1,24 @@
+/*
+  NO NEED FOR SECRET BOX HERE
+
 .secret-container{
   display: flex;
   justify-content: space-between;
-}
+} */
 
-div.secret-box {
+/* div.secret-box {
   display: flex;
-  /* flex: 1; */
+  comment ito flex: 1;
   width: 50px;
   
-  /* background-color: grey; */
-  /* border: 1px solid black; */
+  comment ito background-color: grey;
+  comment ito border: 1px solid black;
   
   opacity: 0.5;
-  /* opacity: 0; */
-}
+  comment ito opacity: 0;
+} */
 
-.secret-box a button {
+/* .secret-box a button {
   display: flex;
   flex: 1;
   height: 100%;
@@ -29,7 +32,8 @@ div.secret-box {
   padding: 16px 16px;
 
   overflow: hidden;
-}
+  NO NEED FOR SECRET BOX HERE
+} */
 
 .signup-container {
   display: flex;
