@@ -7,15 +7,15 @@
 
   <link rel="icon" href="../img/MONKEY.png">
 
-  <link rel="stylesheet" href="../../Icons/uicons-brands/css/uicons-brands.css">
-  <link rel="stylesheet" href="../../Icons/uicons-regular-rounded/css/uicons-regular-rounded.css">
-  <link rel="stylesheet" href="../../Icons/uicons-regular-straight/css/uicons-regular-straight.css">
-
-  <link rel="stylesheet" href="../../Font/font.css">
-  <link rel="stylesheet" href="../order-individual/order.css">
-  <link rel="stylesheet" href="../order-individual/general.css">
-  <link rel="stylesheet" href="../order-individual/header.css">
-  <link rel="stylesheet" href="../order-individual/sidebar.css">
+  <link rel="stylesheet" href="../Icons/uicons-brands/css/uicons-brands.css">
+  <link rel="stylesheet" href="../Icons/uicons-regular-rounded/css/uicons-regular-rounded.css">
+  <link rel="stylesheet" href="../Icons/uicons-regular-straight/css/uicons-regular-straight.css">
+  
+  <link rel="stylesheet" href="../Font/font.css">
+  <link rel="stylesheet" href="users.css">
+  <link rel="stylesheet" href="header.css">
+  <link rel="stylesheet" href="sidebar.css">
+  <link rel="stylesheet" href="general.css">
 
 </head>
 <body>
@@ -62,7 +62,7 @@
       
       <div class="name-and-picture-container">
 
-        <img src="../../img/admin img/358107523_1754712894979427_3739884092625049883_n.jpg" class="right-side-profile-picture" alt="">
+        <img src="../img/admin img/358107523_1754712894979427_3739884092625049883_n.jpg" class="right-side-profile-picture" alt="">
         
         <button class="right-side-name-btn">
           <p class="right-side-name">
@@ -84,7 +84,7 @@
       <div class="sidebar-profile-container">
 
         <div class="side-profile-picture">
-          <img src="../../img/admin img/358107523_1754712894979427_3739884092625049883_n.jpg" alt="" class="sidebar-picture">
+          <img src="../img/admin img/358107523_1754712894979427_3739884092625049883_n.jpg" alt="" class="sidebar-picture">
         </div>
         
         <div class="sidebar-profile-info">
@@ -102,7 +102,7 @@
       <div class="sidebar-buttons-container">
 
         <div>
-          <a href="../Admin.html" class="sidebar-button-anchor">
+          <a href="#" class="sidebar-button-anchor">
             <div class="sidebar-button">
               
               <div>
@@ -118,7 +118,7 @@
             </div>
           </a>
   
-          <a href="../all-order/all-order1.html" class="sidebar-button-anchor">
+          <a href="../admin/all-order/all-order1.html" class="sidebar-button-anchor">
             <div class="sidebar-button">
               
               <div>
@@ -134,7 +134,7 @@
             </div>
           </a>
   
-          <a href="../all-product/products.html" class="sidebar-button-anchor">
+          <a href="../admin/all-product/products.html" class="sidebar-button-anchor">
             <div class="sidebar-button">
   
               <div>
@@ -162,8 +162,21 @@
                   Users
                 </p>
               </div>
+            </div>
+          </a>
+
+          <a href="#" class="sidebar-button-anchor">
+            <div class="sidebar-button">
               
-    
+              <div>
+                <i class="fi fi-rr-time-past"></i>
+              </div>
+              
+              <div>
+                <p class="users">
+                  History
+                </p>
+              </div>
             </div>
           </a>
           
@@ -200,7 +213,7 @@
         
         <div>
 
-          <a href="../../OtherPages/loginpage.html" class="sidebar-button-anchor">
+          <a href="../OtherPages/loginpage.html" class="sidebar-button-anchor">
             <div class="sidebar-button">
   
               <div>
@@ -217,16 +230,149 @@
         </div>
         
       </div>
-      
+
     </div>
 
   </div>
   
-  <div class="put-in-middle-container">
+  <section class="put-in-middle-container">
 
-  <!-- CODE HEREEEEEE -->
+    <div class="first-row">
+      <div class="left-part">
+        <p class="title">User Lists</p>
+        <p class="user-number">6</p>
+      </div>
+      <div class="right-part">
+        <button class="filter-button">
+          <i class="fi fi-rr-settings-sliders"></i>
+          Filter
+        </button>
+        <button class="add-user-btn">
+          <i class="fi fi-rr-plus-small"></i>
+          Add User
+        </button>
+      </div>
+    </div>
 
-  </div>
+    <div class="table-container">
+      <div class="table-top">
+        <p>Name</p>
+        <p>Role</p>
+        <p>Ratings</p>
+        <p>Status</p>
+        <p>Actions</p>
+      </div>
+
+      <div class="table-row">
+        <img src="../img/admin img/358107523_1754712894979427_3739884092625049883_n.jpg" alt="pp">
+        <div>
+          <p class="name">Aldrikz Suarez</p>
+          <p class="email">Aldrikz@example.com </p>
+          
+        </div>
+        <p class="admin">Admin</p>
+        <div style="display: flex; align-items: center; gap: 10px;">
+          <p>5</p>
+          <i class="fi fi-rs-star"></i>
+        </div>
+        <p class="act">Active</p>
+        <button class="reset">Reset Password</button>
+        <button class="edit">Edit</button>
+        
+      </div>
+
+      <div class="table-row">
+        <img src="../img/admin img/341584562_623756319184194_7217777239301055088_n.jpg" alt="pp">
+        <div>
+          <p class="name">lvl100boss</p>
+          <p class="email">boss@example.com </p>
+        </div>
+        <p class="mod">Moderator</p>
+        <div style="display: flex; align-items: center; gap: 10px;">
+          <p>5</p>
+          <i class="fi fi-rs-star"></i>
+        </div>
+        <p class="offline">Offline</p>
+        <button class="reset">Reset Password</button>
+        <button class="edit">Edit</button>
+        <p class="ban">Ban</p>
+        <a class="delete">Delete Account</a>
+      </div>
+
+      <div class="table-row">
+        <img src="users/img/ProfilePic.jpg" alt="pp">
+        <div>
+          <p class="name">Art Michael Cadiz</p>
+          <p class="email">art@example.com </p>
+        </div>
+        <p class="user">User</p>
+        <div style="display: flex; align-items: center; gap: 10px;">
+          <p>4</p>
+          <i class="fi fi-rs-star"></i>
+        </div>
+        <p class="act">Active</p>
+        <button class="reset">Reset Password</button>
+        <button class="edit">Edit</button>
+        <p class="ban">Ban</p>
+        <a class="delete">Delete Account</a>
+      </div>
+
+      <div class="table-row">
+        <img src="users/img/ProfilePic3.jpg" alt="pp">
+        <div>
+          <p class="name">Dean Reight Billedo</p>
+          <p class="email">dean@example.com </p>
+        </div>
+        <p class="user">User</p>
+        <div style="display: flex; align-items: center; gap: 10px;">
+          <p>2</p>
+          <i class="fi fi-rs-star"></i>
+        </div>
+        <p class="offline">Offline</p>
+        <button class="reset">Reset Password</button>
+        <button class="edit">Edit</button>
+        <p class="ban">Ban</p>
+        <a class="delete">Delete Account</a>
+      </div>
+
+      <div class="table-row">
+        <img src="users/img/ProfilePic4.jpg" alt="pp">
+        <div>
+          <p class="name">Kian Lloyd Layam</p>
+          <p class="email">ken@example.com </p>
+        </div>
+        <p class="user">User</p>
+        <div style="display: flex; align-items: center; gap: 10px;">
+          <p>5</p>
+          <i class="fi fi-rs-star"></i>
+        </div>
+        <p class="offline">Offline</p>
+        <button class="reset">Reset Password</button>
+        <button class="edit">Edit</button>
+        <p class="ban">Ban</p>
+        <a class="delete">Delete Account</a>
+      </div>
+
+      <div class="table-row">
+        <img src="users/img/ProfilePic2.jpg" alt="pp">
+        <div>
+          <p class="name">Al-Steven John Tumimbang</p>
+          <p class="email">steben@example.com </p>
+        </div>
+        <p class="user">User</p>
+        <div style="display: flex; align-items: center; gap: 10px;">
+          <p>5</p>
+          <i class="fi fi-rs-star"></i>
+        </div>
+        <p class="act">Active</p>
+        <button class="reset">Reset Password</button>
+        <button class="edit">Edit</button>
+        <p class="ban">Ban</p>
+        <a class="delete">Delete Account</a>
+      </div>
+    </div>
+
+  </section>
 
 </body>
 </html>

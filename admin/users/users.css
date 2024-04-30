@@ -1,235 +1,216 @@
+
 .put-in-middle-container {
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
+  /* display: flex; */
+  
   /* height: 80vh; */
   margin: 10px;
-  flex: 1;
-
+ 
   /* background-color: lightblue;  */
-}
-
-.MAIN-progress-container {
-  display: flex;
-  flex-direction: column;
-  /* width: ; */
-  flex: 1;
-  justify-content: center;
-  /* background-color: lightblue; */
-}
-
-.progress-container {
-  display: flex;
-  justify-content: space-evenly;
-  flex: 1;
-  /* background-color: rgb(228, 226, 226); */
-}
-
-.progress-checkpoints {
-  position: relative;
-
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-
-  height: 80px;
-  width: 150px;
-  /* background-color: lightpink; */
-}
-
-
-.progress-title {
-  font-size: 16px;
-  font-weight: 600;
-  margin-bottom: 5px;
-}
-
-.progress-subtitle {
-  font-size: 14px;
-  font-weight: 500;
-}
-
-
-.progress-checkpoints-balls-container {
-  margin: 50px 0 50px 0;
-}
-
-.checkpoints-line{
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  /* flex: 1; */
-  width: auto;
-  height: 5px;
-  
-  background-color: #005B41;
-}
-
-.checkpoint-balls {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  position: absolute;
-
-  top: 135%;
-
-  height: 50px;
-  width: 50px;
-  border-radius: 25px;
-  background-color: #005B41;
-}
-
-.checkpoint-balls-title {
-  position: absolute;
-
-  top: 220%;
-}
-
-.checkpoint-balls .fi {
-  font-size: 20px;
-	color: white;
-  margin-top: 4px;
-  /* margin-left: 3px; */
-}
-
-.items-container {
-  display: flex;
-  flex-direction: column;
-  margin-top: 5%;
-}
-
-.item-preview-container {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-
-  /* background-color: rgb(212, 212, 212); */
-
-  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
   border-radius: 5px;
-  padding: 20px;
-  gap: 10px;
-  margin: 10px 0 10px 0;
+  padding: 6dvh 4dvh;
+
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.first-row {
   flex: 1;
-
-  /* width: 600px; */
-  
-  color: rgb(92, 92, 92);
-}
-
-.item-preview-container, .left, .item-info p, .middle p, .right p {
-  font-size: 14px;
-}
-
-.items-container-heading {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px;
+  margin-bottom: 2dvh;
 }
-
-.middle {
-  flex: 2;
-}
-
-.left {
+.first-row .left-part {
   display: flex;
   align-items: center;
-  gap: 10px;
-  flex: 1;
-  /* margin-left: 20px; */
+  gap: 2dvh;
 }
-
-.item-photo {
-  width: 50px;
-  height: 50px;
-  object-fit: cover;
-  border-radius: 3px;
+.title {
+  font-size: 2.8dvh;
+  font-weight: bold;
+  /* margin-bottom: 10px; */
 }
-
-.num-of-items{
-  color: rgb(92, 92, 92);
-  font-size: 12px;
-  font-weight: 400;
-  margin-bottom: 20px;
+.user-number {
+  font-size: 2.5dvh;
+  color: #666;
+  font-weight: 600;
 }
-
-.item-name {
-  font-size: 14px;
-  font-weight: 500;
-}
-
-.item-size {
-  font-size: 12px;
-  font-weight: 400;
-}
-
-.right {
+.right-part {
   display: flex;
-  flex: 1;
-  justify-content: flex-end;
+  gap: 2dvh;
+  align-items: center;
 }
 
-.item-num, .item-price {
-  font-size: 14px;
+.first-row button {
+  padding: 1dvh 2dvh;
+  border: none;
+  border-radius: 5px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 1dvh;
+}
+
+.first-row button .fi {
+  font-size: 2dvh;
+  margin-top: 0.56dvh;
+}
+
+.first-row .add-user-btn {
+  background-color: #005B41;
+  color: white;
+  padding-right: 4dvh;
+}
+
+
+
+
+
+.table-top {
+  display: grid;
+  grid-template-columns: 3.2fr 2fr 2fr 2fr 5fr;
+  font-weight: 400;
+  background-color: black;
+  color: white;
+  padding: 1.5dvh;
+  border-radius: 5px 5px 0 0;
+  
+}
+
+
+
+.table-row {
+  display: grid;
+  grid-template-columns: 0.5fr 2.5fr 2fr 2fr 2fr 2fr 1fr 1fr 1fr;
+  border-bottom: #d3d3d3 0.2dvh solid;
+ 
+  padding: 1.5dvh;
+  gap: 2dvh;
+  font-size: 2dvh;
+  align-items: center;
+}
+
+
+
+.table-container img {
+  width: 6dvh;
+  height: 6dvh;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.act {
+  color: rgb(105, 216, 61);
+}
+
+.table-row .act, .table-row .offline {
+  font-weight: 700;
+}
+
+.offline {
+  color: red;
+}
+
+.table-row p {
   font-weight: 500;
 }
 
-.item-num, .fi-rr-trash {
+.table-row .name {
+  font-weight: 700;
+  
+}
+.email {
+  color: #666;
+}
+.fi-rs-star {
+  margin-top: 0.3dvh;
+  color: orange;
+}
+.table-row .admin {
+  background: linear-gradient(135deg, #ffff00, #ffae00, #ff0000);
+  color: white;
+  font-weight: 500;
+  padding: 0.5dvh 1dvh;
+  width: fit-content;
+  border-radius: 100px;
+  background-color: #f7d202;
+}
+.mod {
+  background: linear-gradient(45deg, #ff18b2, #8c00ff, #00e1ff);
+  color: white;
+  padding: 0.5dvh 1dvh;
+  width: fit-content;
+  border-radius: 100px;
+  background-color: #d608ff;
+}
+
+.user {
+  color: white;
+  padding: 0.5dvh 2dvh;
+  width: fit-content;
+  border-radius: 100px;
+  background-color: #81ad85;
+}
+
+.reset {
+  box-sizing: border-box;
+  border-radius: 3px;
+  border: 0.2dvh solid #0077ff;
+  background-color: none;
+  padding: 0.8dvh 1dvh;
+  color: #0077ff;
+}
+
+.reset:hover {
+  background-color: #0077ff;
+  color: white;
+}
+
+.reset:active {
+  background-color: #005ac0;
+}
+
+.edit {
+  border-radius: 3px;
+  border: none;
+  box-sizing: border-box;
+  background-color: black;
+  padding: 0.85dvh 1.2dvh;
+  color: white;
+}
+
+.edit:hover {
+  background-color: #333;
+}
+
+.edit:active {
+  background-color: #666;
+}
+
+.table-row .ban {
+  font-weight: 800;
+  color: orange;
+  text-decoration: underline;
+  cursor: pointer;
   text-align: center;
 }
 
-.item-price {
-  text-align: right;
-  margin-right: 10px;
+.table-row .ban:hover {
+  color: red;
 }
 
-.item-total-container {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-
-  /* background-color: rgb(212, 212, 212); */
-
-  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
-  border-radius: 5px;
-  padding: 20px;
-  gap: 10px;
-  margin: 10px 0 10px 0;
-  flex: 1;
-
-  /* width: 600px; */
-  
-  color: rgb(92, 92, 92);
+.table-row .ban:active {
+  color: #ff6969;
 }
 
-.left-total {
-  flex: 1;
+.delete {
+  color: #666;
+  text-align: center;
+  cursor: pointer;
 }
 
-.middle-total {
-  flex: 1;
+.delete:hover {
+  color: red;
 }
 
-.right-total {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex: 1;
-}
-
-.total-price {
-  font-size: 20px;
-  font-weight: 600;
-  color: #005B41;
-}
-
-.item-price {
-  font-size: 20px;
-  font-weight: 600;
-  color: black;
+.delete:active {
+  color: #ff6969;
 }
