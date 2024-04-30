@@ -83,7 +83,7 @@ div.secret-box {
   margin-bottom: 10px;
 }
 
-@keyframes titleResize {
+/* @keyframes titleResize {
   from {
     font-size: 54px;
   }
@@ -99,7 +99,7 @@ div.secret-box {
   to {
     font-size: 50px;
   }
-}
+} */
 
 
 
@@ -113,7 +113,7 @@ div.secret-box {
   }
 }
 
-@keyframes titleEnlarge {
+/* @keyframes titleEnlarge {
   from {
     font-size: 42px;
   }
@@ -129,7 +129,7 @@ div.secret-box {
   to {
     font-size: 60px;
   }
-}
+} */
 
 @media screen and (min-width: 551px) {
   .login-title {
