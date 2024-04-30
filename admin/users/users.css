@@ -47,6 +47,8 @@
   display: flex;
   align-items: center;
   gap: 1dvh;
+
+  cursor: pointer;
 }
 
 .first-row button .fi {
@@ -111,6 +113,10 @@
 
 .table-row p {
   font-weight: 500;
+}
+
+.table-row button {
+  cursor: pointer;
 }
 
 .table-row .name {

@@ -1,12 +1,9 @@
-/* p {
-	color: white;
-} */
-
 .MAIN-SIDEBAR-CONTAINER {
 	position: fixed;
 
 	display: flex;
 	justify-content: center;
+	/* align-items: center; */
 	flex: 1;
 
 	top: 0;
@@ -14,7 +11,7 @@
 	left: 0;
 	padding: 0 20px 0 20px;
 
-	background-color: white;
+	/* background-color: lightpink; */
 	/* opacity: 0.5; */
 
 	/* border: 2px solid black; */
@@ -28,9 +25,10 @@
 .sidebar-container {
 	display: flex;
 	flex-direction: column;
-	justify-content: space-between;
+	justify-content: flex-start;
 	width: 200px;
-	padding: 20px 0 20px 0;
+	padding: 20px;
+
 }	
 
 .sidebar-profile-container {
@@ -38,6 +36,10 @@
 	justify-content: space-between;
 	/* background-color: lightblue; */
 	align-items: center;
+
+	margin-top: 20px;
+	/* margin-left: 20px; */
+	margin-bottom: 30px;
 }
 
 .side-profile-picture {
@@ -52,15 +54,14 @@
 	border-radius: 25px;
 }
 
-
 .sidebar-profile-info {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 }
 
-.side-profile-name {
-	font-size: 14px;
+.sidebar-name {
+	font-size: 15px;
 }
 
 .sidebar-buttons-container {
@@ -69,7 +70,10 @@
 	flex-direction: column;
 	align-items: center;
 
+	flex: 1;
 	justify-content: space-between;
+	margin-bottom: auto;
+	/* background-color: lightblue; */
 }
 
 .sidebar-button-anchor {
@@ -85,6 +89,7 @@
 	width: 180px;
 
 	padding: 10px;
+	margin: 10px 0px 10px 0px;
 
 	/* box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1); */
 	border-radius: 5px;
@@ -101,7 +106,7 @@
 .sidebar-button:hover {
 	box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.3);
 	padding: 15px;
-	margin: 5px 0 5px 0px;
+	margin: 10px -5px 10px -5px;
 }
 
 .sidebar-button:active {
@@ -109,26 +114,19 @@
 	padding: 15px;
 }
 
-.dashboar-icon,
-.project-icon,
-.transactions-icon,
-.analytics-icon,
-.report-icon,
-.settings-icon,
-.help-icon,
-.logout-icon {
-	height: 20px;
-	width: 20px;
-	object-fit: cover;
+.sidebar-button .fi {
+	font-size: 18px;
+
+	color: black;
 }
 
 .dashboard,
 .orders,
 .products,
-.report,
+.users,
 .settings,
 .help,
 .logout {
-	font-size: 20px;
+	font-size: 18px;
 	font-weight: 500;
 }
