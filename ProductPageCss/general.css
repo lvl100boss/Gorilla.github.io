@@ -1,3 +1,4 @@
+
 * {
   font-family: Archivo, Roboto, Arial, Helvetica, sans-serif;
   padding: 0;
@@ -10,12 +11,12 @@ body {
 
 main {
   padding: 5dvh 0;
-  background-color: rgb(243, 243, 243);
+  background-color: var(--main-color);
   
  
 }
 
 a, a:visited,  a:active, a:hover,  a:focus,  a:link {
   text-decoration: none;
-  color: black;
+  color: var(--font-main-color);
 }

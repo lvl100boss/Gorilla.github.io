@@ -1,7 +1,7 @@
 .footer-container {
   /* margin-top: 50px; */
   display: flex;
-  background-color: #121d17;
+  background-color: var(--footer-color);
   
 
   padding: 20px 10%;
@@ -41,9 +41,7 @@
   align-items: center;
   gap: 70px;
 }
-.link-container{
-  /* margin: 20px 70px 20px 0; */
-}
+
 .link-container a {
   display: flex;
   color: white;

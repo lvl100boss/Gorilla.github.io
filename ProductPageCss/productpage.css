@@ -7,13 +7,13 @@
 .title {
   font-family: Archivo, Roboto, arial;
   font-size: 20px;
-  color: black;
+  color: var(--font-main-color);
   padding: 40px 0 20px 0;
   text-align: center;
 }
 
 .title span {
-  color: #005B41;
+  color: var(--logo-main-color);
 }
 
 div.filter-container {
@@ -43,16 +43,17 @@ div.filter-container {
   
   margin: 10px 0;
   cursor: pointer;
-  border-top: solid 2px black;
-  border-bottom: solid 2px black;
-  background-color: rgb(243, 243, 243);
+  border-top: solid 2px var(--font-main-color);
+  border-bottom: solid 2px var(--font-main-color);
+  background-color: var(--main-color);
+  color: var(--font-main-color);
 
   transition: background-color 0.3s, color 0.3s;
 }
 
 .filter-button:hover {
-  background-color: rgba(0, 0, 0, 0.774);
-  color: white;
+  background-color: var(--font-main-color);
+  color: black;
 }
 .fi-rr-menu-burger {
   font-size: 15px;
@@ -65,7 +66,7 @@ div.filter-container {
 }
 
 .result-num {
-  color: grey;
+  color: var(--font-secondary-color);
   font-size: 17px;
   margin-left: 10px;
 }
@@ -78,6 +79,11 @@ div.filter-container {
   max-width: 50dvh;
   border-radius: 3px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.02);
+  background-color: var(--secondary-color);
+}
+
+.filter-container .Search-bar::placeholder{
+ color: var(--font-secondary-color);
 }
 .filter-container .Search-bar-container {
   position: relative;
@@ -93,10 +99,11 @@ div.filter-container {
   top: 0;
   bottom: 0;
   padding: 1.4dvh 2dvh;
+  color: var(--font-main-color);
 }
 
 .fi-rr-search:hover {
-  color: #11b98a;
+  color: var(--logo-main-color);
 }
 
 .fi-rr-search:active {
@@ -127,6 +134,8 @@ div.filter-container {
   padding-bottom: 20px;
   
   cursor: pointer;
+  border-radius: 0.5rem;
+  background-color: var(--secondary-color);
 }
 
 
@@ -207,7 +216,7 @@ div.filter-container {
 .Tshirts-tag {
   font-size: 12px;
   font-weight: 600;
-  color: grey;
+  color: var(--font-secondary-color);
   cursor: pointer;
 }
 
@@ -219,7 +228,7 @@ div.filter-container {
 
 .tshirt-name {
   font-weight: bold;
-  color: black;
+  color: var(--font-main-color);
   cursor: pointer;
 
 }
@@ -232,12 +241,12 @@ div.filter-container {
 
 
 .original-price {
-  color: rgba(128, 128, 128, 0.8);
+  color: var(--font-secondary-color);
   text-decoration: line-through;
 }
 
 .sale-price {
-  color: grey;
+  color: var(--font-secondary-color);
 }
 
 
@@ -301,7 +310,7 @@ div.filter-container {
 }
 
 .page-nav {
-  background-color: white;
+  background-color: var(--secondary-color);
   font-size: 2dvh;
   cursor: pointer;
   padding: 1dvh 2dvh;
@@ -313,23 +322,23 @@ div.filter-container {
 }
 
 .page-nav:hover {
-  border: inset 0.1dvh rgba(0, 0, 0, 0.788);
+  border: inset 0.1dvh var(--logo-main-color);
   border-style: dashed;
 }
 
 .page-nav:active {
-  border: inset 0.1dvh rgba(0, 0, 0, 0.788);
+  border: inset 0.1dvh var(--logo-main-color);
   border-style: solid;
 }
 
 .act {
-  border: inset 0.1dvh rgba(0, 0, 0, 0.788);
+  border: inset 0.1dvh var(--logo-main-color);
   border-style: solid;
   border-radius: 0;
 }
 
 .act:hover {
-  border: inset 0.1dvh rgba(0, 0, 0, 0.788);
+  border: inset 0.1dvh var(--logo-main-color);
   border-style: solid;
   border-radius: 0;
 }
