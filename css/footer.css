@@ -1,7 +1,7 @@
 .footer-container {
   /* margin-top: 50px; */
   display: flex;
-  background-color: #1b1d24;
+  background-color: #121d17;
   
 
   padding: 20px 10%;
@@ -64,7 +64,7 @@
   color: white;
   background-color: white;
   padding: 10px 10px 5px 10px;
-  color: #1b1d24;
+  color: var(--secondary-color);
   font-size: 20px;
   margin-left: 10px;
 }

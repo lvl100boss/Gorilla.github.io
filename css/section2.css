@@ -29,8 +29,13 @@
   font-weight: bold;
 }
 
+p.featured-products  {
+  color: var(--font-main-color);
+
+}
+
 .PRODUCTS {
-  color: #005B41;
+  color: var(--logo-main-color);
 }
 
 .selection-type-container {
@@ -50,7 +55,7 @@
 }
 
 .tshirt-button:hover {
-  background-color: #005B41;
+  background-color: var(--logo-main-color);
   color: white;
 
   text-decoration: underline;
@@ -69,7 +74,7 @@
 }
 
 .polos-button:hover {
-  background-color: #005B41;
+  background-color: var(--logo-main-color);
   color: white;
 
   text-decoration: underline;
@@ -98,6 +103,8 @@
   padding-bottom: 20px;
   
   cursor: pointer;
+  background-color: var(--secondary-color);
+  border-radius: 0.5rem;
 }
 
 
@@ -178,7 +185,7 @@
 .Tshirts-tag {
   font-size: 12px;
   font-weight: 600;
-  color: grey;
+  color: var(--font-secondary-color);
   cursor: pointer;
 }
 
@@ -190,7 +197,7 @@
 
 .tshirt-name {
   font-weight: bold;
-  color: black;
+  color: var(--font-main-color);
   cursor: pointer;
 
 }
@@ -215,9 +222,9 @@
   margin-top: 5dvh;
   font-size: 2dvh;
   font-weight: 400;
-  color: #005B41;
+  color: var(--logo-main-color);
   cursor: pointer;
-  border-bottom: 1.5px solid #005B41;
+  border-bottom: 1.5px solid var(--logo-main-color);
   padding-bottom: 1.5px;
 }
 

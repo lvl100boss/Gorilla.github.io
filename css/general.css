@@ -1,4 +1,11 @@
-
+:root {
+  --main-color: rgb(22, 22, 22);
+  --secondary-color: rgb(40, 40, 40);
+  --font-main-color: rgb(255, 255, 255);
+  --font-secondary-color: rgb(163, 163, 163);
+  --logo-main-color: #21b68b;
+  --logo-secondary-color: #ffffff;
+}
 * {
   font-family: Archivo,Roboto, Arial, Helvetica, sans-serif;
   padding: 0;
@@ -8,9 +15,11 @@
 body {
   /* height: 3000px; */
   padding-top: 9dvh;
+  background-color: var(--main-color);
 }
 
 a, a:visited,  a:active, a:hover,  a:focus,  a:link {
   text-decoration: none;
-  color: black;
+  color: var(--font-main-color);
 }
+
