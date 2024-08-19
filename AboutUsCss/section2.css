@@ -4,6 +4,8 @@
   column-gap: 50px;
   padding: 50px 11.5%;
   line-height: 30px;
+  background-color: var(--main-color);
+  color: var(--font-main-color);
 }
 
 @media screen and (max-width: 900px) {

@@ -8,6 +8,8 @@
   /* padding-top: 20px;
   padding-bottom: 70px; */
   padding: 0 6.5% 5% 5.5%;
+  background-color: var(--main-color);
+  color: var(--font-main-color);
 }
 
 .section3 h1 {

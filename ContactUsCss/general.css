@@ -18,5 +18,5 @@ main {
 
 a, a:visited,  a:active, a:hover,  a:focus,  a:link {
   text-decoration: none;
-  color: black;
+  color: var(--font-main-color);
 }
