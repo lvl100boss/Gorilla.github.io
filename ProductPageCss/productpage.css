@@ -80,6 +80,7 @@ div.filter-container {
   border-radius: 3px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.02);
   background-color: var(--secondary-color);
+  color: var(--font-main-color);
 }
 
 .filter-container .Search-bar::placeholder{

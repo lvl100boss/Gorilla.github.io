@@ -1,39 +1,4 @@
-/*
-  NO NEED FOR SECRET BOX HERE
 
-.secret-container{
-  display: flex;
-  justify-content: space-between;
-} */
-
-/* div.secret-box {
-  display: flex;
-  comment ito flex: 1;
-  width: 50px;
-  
-  comment ito background-color: grey;
-  comment ito border: 1px solid black;
-  
-  opacity: 0.5;
-  comment ito opacity: 0;
-} */
-
-/* .secret-box a button {
-  display: flex;
-  flex: 1;
-  height: 100%;
-  border: none;
-  border-right: 1px solid rgba(0, 0, 0, 0.178);
-  border-left: 1px solid rgba(0, 0, 0, 0.178);
-  background-color: white;
-  writing-mode: vertical-rl;
-  text-orientation: upright; 
-  white-space: nowrap; 
-  padding: 16px 16px;
-
-  overflow: hidden;
-  NO NEED FOR SECRET BOX HERE
-} */
 
 .signup-container {
   display: flex;
@@ -41,6 +6,7 @@
   flex-direction: column;
   align-items: center;
   margin-bottom: 50px;
+  
 }
 
 .sign-up-form, .separate-container {
@@ -48,24 +14,31 @@
 }
 
 .sign-up{
-  color: #005B41;
+  color: var(--logo-main-color);
 }
 
 .sign-up-title {
   font-weight: bolder;
-  color: #0F0F0F;
+  color: var(--font-main-color);
   font-size: 54px;
   margin-bottom: 40px;
   line-height: 52px;
   letter-spacing: -3.5px;
 }
 
+
+
+
+
+
+
+
 .username_label, .password_label {
   display: block;
   font-weight: bold;
   font-size: 13px;
   margin-bottom: 10px;
-  color: #005B41;
+  color: var(--logo-main-color);
 }
 
 .username-fill-up-container,
@@ -79,15 +52,22 @@
 .password-fill-up {
   flex: 1;
   /* font-size: 16px; */
-  padding: 12px 15px 12px 15px;
-  border: 2px solid rgba(0, 0, 0, 0.507);
-  border-radius: 5px;
+  padding: 1rem 1rem;
+  border: none;
+  border-radius: 0.5rem;
+
+  background-color: var(--secondary-color);
+  color: var(--font-main-color);
+}
+.username-fill-up:focus,
+.password-fill-up:focus {
+  outline: none;
 }
 
 .submit-button-container {
   display: flex;
   flex-direction: row;
-
+  
   margin-bottom: 35px;
 }
 
@@ -98,7 +78,7 @@
   border: none;
   border-radius: 100px;
   color: white;
-  background-color: #005B41;
+  background-color: var(--logo-main-color);
 
   font-weight: bold;
   cursor: pointer;
@@ -131,7 +111,7 @@
 .or {
   /* font-size: 19px; */
   margin: 0 10px 4px 10px;
-  color: #005B41;
+  color: var(--logo-main-color);
 }
 
 .buttons-container {
@@ -150,10 +130,10 @@
   flex: 1;
   font-size: 16px;
   padding: 13px 20px 13px 20px;
-  border: 2px solid rgba(0, 0, 0, 0.507);
-  background-color: white;
+  border: 1px solid rgba(255, 255, 255, 0.507);
+  background-color: var(--secondary-color);
   border-radius: 100px;
-
+  color: var(--font-main-color);
   font-weight: bold;
   align-items: center;
   cursor: pointer;
@@ -166,7 +146,7 @@
 }
 
 .social-media-buttons:active{
-  background-color: #005b411e;
+  background-color: var(--ternary-color);
 }
 
 .button-contents {
@@ -179,7 +159,7 @@
 }
 
 .social-media-name {
-  color: #005B41;
+  color: var(--logo-main-color);
   /* margin-left: 5px; */
   font-size: 16px;
 }
@@ -193,18 +173,8 @@
 
 .question {
   font-size: 16px;
-}
-
-.login-link {
-  font-weight: 600;
-  text-decoration: underline;
-  cursor: pointer;
-
-  transition: color 0.15s;
-}
-
-.login-link:hover {
-  color: #005B41;
+  color: var(--font-main-color);
+  
 }
 
 .disclaimer-div {
@@ -213,16 +183,26 @@
   justify-content: center;
 }
 
+.sign-up-link {
+  font-weight: 600;
+  text-decoration: underline;
+  cursor: pointer;
+  color: var(--font-main-color);
+  transition: color 0.15s;
+}
+
+.sign-up-link:hover {
+  color: var(--logo-main-color);
+}
+
 .disclaimer {
   width: 255px;
   text-align: center;
   font-size: 11px;
-  color: gray;
+  color: var(--font-secondary-color);
 }
 
 .underline {
   text-decoration: underline;
   cursor: pointer;
 }
-
-

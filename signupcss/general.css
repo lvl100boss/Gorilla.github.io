@@ -6,6 +6,7 @@
 
 body {
   padding-top: 9%;
+  background-color: var(--main-color);
 }
 
 a, a:visited,  a:active, a:hover,  a:focus,  a:link {

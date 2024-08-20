@@ -132,8 +132,8 @@
 }
 
 /* Links inside the dropdown */
-.dropdown-content a {
-  color: var(--font-main-color);
+.dropdown .dropdown-content a {
+  color: var(--font-main-color) !important;
   padding: 12px 16px;
   text-decoration: none;
   display: block;

@@ -1,9 +1,12 @@
 :root {
     --main-color: rgb(20, 20, 20);
     --secondary-color: rgb(31, 31, 31);
+    --ternary-color: rgb(40, 40, 40);
     --font-main-color: rgb(255, 255, 255);
     --font-secondary-color: rgb(163, 163, 163);
     --logo-main-color: #21b68b;
     --logo-secondary-color: #ffffff;
-    --footer-color: #121d17;
+    /* --footer-color: #ffa601; */
+    --footer-color: #181818;
   }
+    

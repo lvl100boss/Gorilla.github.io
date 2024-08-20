@@ -27,6 +27,7 @@
   /* text-shadow: -1px 4px 1px rgb(255, 255, 255); */
   text-shadow: -0.2dvh 0.6dvh 1px rgb(255, 255, 255);
   margin-bottom: 7dvh;
+  color: var(--ternary-color);
 }
 
 .about-us-content {
@@ -35,7 +36,7 @@
   font-size: 6.8dvh;
   
   font-weight: 800;
-  color: rgb(29, 29, 29);
+  color: var(--ternary-color);
   max-width: 80%;
   text-align: center;
   text-shadow: -0.5dvh 0.9dvh 1px rgba(255, 255, 255, 0.6);
